@@ -4,6 +4,8 @@ from time import sleep, time
 import threading
 from datetime import datetime
 import os
+import tkinter as tk
+from tkinter import ttk
 
 class APICaller:
     def __init__(self, champion_deck_file='champion_decks.json', game_durations_file='game_durations.json'):
@@ -145,10 +147,90 @@ class APICaller:
     def get_champion(self):
         return self.champion
 
+    def remove_all_saved_timers(self):
+        self.game_durations = {}
+        self.save_game_durations()
+        print("Removed all saved timers from game durations.")
 
-api_caller = APICaller()
-# To run the call_api method without blocking the main program
-thread = threading.Thread(target=api_caller.call_api)
-thread.start()
+
+class GameDurationsDisplay:
+    def __init__(self, game_durations):
+        self.game_durations = game_durations
+
+    def display_game_durations_info(self):
+        root = tk.Tk()
+        root.title("Game Durations Info")
+
+        tree = ttk.Treeview(root)
+        tree["columns"] = ("fastest_time", "average_time")
+        tree.heading("#0", text="Champion")
+        tree.heading("fastest_time", text="Fastest Time")
+        tree.heading("average_time", text="Average Time")
+
+        for champion, games in self.game_durations.items():
+            if not games:
+                continue
+            durations = [game['duration'] for game in games]
+            fastest_time = min(durations)
+            average_time = sum(durations) / len(durations)
+            tree.insert("", "end", text=champion, values=(f"{fastest_time:.2f}", f"{average_time:.2f}"))
+
+        tree.pack(expand=True, fill="both")
+        root.mainloop()
 
 
+def main():
+    api_caller = APICaller()
+    display = GameDurationsDisplay(api_caller.game_durations)
+
+    while True:
+        print("\nChoose an action:")
+        print("1. Remove all saved timers")
+        print("2. Add champion deck")
+        print("3. Update misc field")
+        print("4. Get game data")
+        print("5. Get cards data")
+        print("6. Get game result")
+        print("7. Get current champion")
+        print("8. Display game durations info")
+        print("9. Start API call loop")
+        print("0. Exit")
+        choice = input("Enter your choice: ")
+
+        if choice == '1':
+            api_caller.remove_all_saved_timers()
+        elif choice == '2':
+            champion_name = input("Enter the champion name: ")
+            deck_mapping = input("Enter the deck mapping as a JSON string: ")
+            try:
+                deck_mapping = json.loads(deck_mapping)
+                api_caller.add_champion_deck(champion_name, deck_mapping)
+            except json.JSONDecodeError:
+                print("Invalid JSON format.")
+        elif choice == '3':
+            champion_name = input("Enter the champion name: ")
+            game_id = int(input("Enter the game ID: "))
+            field_name = input("Enter the field name: ")
+            field_value = input("Enter the field value: ")
+            api_caller.update_misc_field(champion_name, game_id, field_name, field_value)
+        elif choice == '4':
+            print(api_caller.get_game_data())
+        elif choice == '5':
+            print(api_caller.get_cards_data())
+        elif choice == '6':
+            print(api_caller.get_game_result())
+        elif choice == '7':
+            print(api_caller.get_champion())
+        elif choice == '8':
+            display.display_game_durations_info()
+        elif choice == '9':
+            thread = threading.Thread(target=api_caller.call_api)
+            thread.start()
+            print("API call loop started in a separate thread.")
+        elif choice == '0':
+            break
+        else:
+            print("Invalid choice. Please try again.")
+
+if __name__ == "__main__":
+    main()
