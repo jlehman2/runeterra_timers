@@ -5,7 +5,7 @@ from datetime import datetime
 import os
 
 class APICaller:
-    def __init__(self, champion_deck_file='champion_decks.json', game_durations_file='game_durations.json', champion_code_file='champion_to_code.json'):
+    def __init__(self, game_durations, refresh_display_callback, champion_deck_file='champion_decks.json', game_durations_file='game_durations.json', champion_code_file='champion_to_code.json'):
         self.game_data_link = "http://127.0.0.1:21337/positional-rectangles"
         self.game_data = {}
         self.deck_link = "http://127.0.0.1:21337/static-decklist"
@@ -16,7 +16,8 @@ class APICaller:
         self.current_champion = "Unknown Champion"
         self.in_game = False
         self.game_start_time = None
-        self.game_durations = {}
+        self.game_durations = game_durations
+        self.refresh_display_callback = refresh_display_callback
         self.previous_deck = {}
 
         with open(champion_deck_file, 'r') as file:
@@ -31,9 +32,7 @@ class APICaller:
         # Load existing game durations if the file exists
         if os.path.exists(self.game_durations_file):
             with open(self.game_durations_file, 'r') as file:
-                self.game_durations = json.load(file)
-        else:
-            self.game_durations = {}
+                self.game_durations.update(json.load(file))
 
     def find_champion(self, first_card_code):
         for champion, card_code in self.champion_code_mapping.items():
@@ -90,8 +89,7 @@ class APICaller:
                                 self.game_durations[self.current_champion].append(game_record)
                                 self.save_game_durations()
                                 print(f"Game ended, played as {self.current_champion}, duration: {game_duration} seconds, GameID: {self.game_result['GameID']}")
-                            else:
-                                print(f"Game ended, but result was a loss or surrender. Not saving the duration.")
+                                self.refresh_display_callback()  # Refresh the display after updating the data
 
             except urllib.error.URLError as e:
                 print(f"Failed to connect to the API: {e.reason}")
@@ -108,6 +106,12 @@ class APICaller:
     def save_game_durations(self):
         with open(self.game_durations_file, 'w') as file:
             json.dump(self.game_durations, file, indent=4)
+
+    def clear_all_data(self):
+        self.game_durations.clear()
+        self.save_game_durations()
+        self.refresh_display_callback()  # Refresh the display after clearing the data
+        print("Cleared all game durations data.")
 
     def update_misc_field(self, champion_name, game_id, field_name, field_value):
         if champion_name in self.game_durations:
@@ -139,4 +143,5 @@ class APICaller:
     def remove_all_saved_timers(self):
         self.game_durations = {}
         self.save_game_durations()
+        self.refresh_display_callback()  # Refresh the display after removing all timers
         print("Removed all saved timers from game durations.")

@@ -4,10 +4,12 @@ import threading
 import time
 
 class GameDurationsDisplay:
-    def __init__(self, game_durations, get_current_deck, stop_event):
+    def __init__(self, game_durations, get_current_deck, stop_event, clear_data):
         self.game_durations = game_durations
         self.get_current_deck = get_current_deck
         self.stop_event = stop_event
+        self.clear_data = clear_data
+
         self.root = tk.Tk()
         self.root.title("Game Durations Info")
 
@@ -23,6 +25,9 @@ class GameDurationsDisplay:
         self.tree.heading("fastest_time", text="Fastest Time")
         self.tree.heading("average_time", text="Average Time")
         self.tree.pack(expand=True, fill="both")
+
+        self.clear_button = ttk.Button(self.root, text="Clear Data", command=self.clear_data)
+        self.clear_button.pack()
 
         self.start_time = time.time()
         self.update_timer()

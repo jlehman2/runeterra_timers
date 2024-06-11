@@ -1,63 +1,9 @@
 {
-    "Gwen": [
-        {
-            "timestamp": "2024-06-10T10:45:17.928076",
-            "duration": 79.49570369720459,
-            "game_id": 14,
-            "DrewChampionTurnOne": false
-        },
-        {
-            "timestamp": "2024-06-10T16:23:59.986761",
-            "duration": 56.73627424240112,
-            "game_id": 22,
-            "DrewChampionTurnOne": false
-        }
-    ],
-    "Unknown Champion": [
-        {
-            "timestamp": "2024-06-10T10:53:41.912991",
-            "duration": 53.805280447006226,
-            "game_id": 15,
-            "DrewChampionTurnOne": false
-        }
-    ],
-    "Vayne": [
-        {
-            "timestamp": "2024-06-10T17:27:08.077446",
-            "duration": 44.49028038978577,
-            "game_id": 1,
-            "DrewChampionTurnOne": false
-        },
-        {
-            "timestamp": "2024-06-10T17:35:54.612408",
-            "duration": 46.659584283828735,
-            "game_id": 2,
-            "DrewChampionTurnOne": false
-        },
-        {
-            "timestamp": "2024-06-10T17:37:45.638764",
-            "duration": 89.10246896743774,
-            "game_id": 3,
-            "DrewChampionTurnOne": false
-        }
-    ],
     "Lux: Illuminated": [
         {
-            "timestamp": "2024-06-10T17:39:39.564239",
-            "duration": 71.12263536453247,
-            "game_id": 4,
-            "DrewChampionTurnOne": false
-        },
-        {
-            "timestamp": "2024-06-10T17:55:15.136479",
-            "duration": 53.497791051864624,
-            "game_id": 5,
-            "DrewChampionTurnOne": false
-        },
-        {
-            "timestamp": "2024-06-10T18:01:24.452749",
-            "duration": 74.16182827949524,
-            "game_id": 6,
+            "timestamp": "2024-06-10T20:54:33.691628",
+            "duration": 85.49205160140991,
+            "game_id": 12,
             "DrewChampionTurnOne": false
         }
     ]
