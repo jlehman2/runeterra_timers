@@ -3,7 +3,6 @@ import json
 from time import sleep, time
 from datetime import datetime
 import os
-
 class APICaller:
     def __init__(self, game_durations, refresh_display_callback, champion_deck_file='champion_decks.json', game_durations_file='game_durations.json', champion_code_file='champion_to_code.json'):
         self.game_data_link = "http://127.0.0.1:21337/positional-rectangles"

@@ -1,7 +1,9 @@
 import tkinter as tk
 from tkinter import ttk
-import threading
 import time
+import random
+import csv
+from datetime import datetime
 
 class GameDurationsDisplay:
     def __init__(self, game_durations, get_current_deck, stop_event, clear_data):
@@ -28,6 +30,10 @@ class GameDurationsDisplay:
 
         self.clear_button = ttk.Button(self.root, text="Clear Data", command=self.clear_data)
         self.clear_button.pack()
+
+        # Add Save button
+        self.save_button = ttk.Button(self.root, text="Save", command=self.save_data)
+        self.save_button.pack()
 
         self.start_time = time.time()
         self.update_timer()
@@ -66,6 +72,30 @@ class GameDurationsDisplay:
             self.tree.insert("", "end", text=champion, values=(f"{fastest_time:.2f}", f"{average_time:.2f}"))
 
         self.root.after(5000, self.refresh_data)  # Schedule the next refresh
+
+    def save_data(self):
+        # Function to handle saving the data
+        date_str = datetime.now().strftime("%Y%m%d")
+        random_number = random.randint(1000, 9999)
+        filename = f"game_durations_{date_str}_{random_number}.csv"
+
+        # Flatten the JSON structure and write to CSV
+        with open(filename, 'w', newline='') as csvfile:
+            fieldnames = ['Champion', 'Timestamp', 'Duration', 'GameID', 'DrewChampionTurnOne']
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+            writer.writeheader()
+            for champion, games in self.game_durations.items():
+                for game in games:
+                    writer.writerow({
+                        'Champion': champion,
+                        'Timestamp': game['timestamp'],
+                        'Duration': game['duration'],
+                        'GameID': game['game_id'],
+                        'DrewChampionTurnOne': game.get('DrewChampionTurnOne', False)
+                    })
+
+        print(f"Data saved to {filename}")
 
     def stop(self):
         self.stop_event.set()
