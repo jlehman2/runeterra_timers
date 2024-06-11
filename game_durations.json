@@ -1,66 +1,23 @@
 {
-    "Jinx": [
+    "Gwen": [
         {
-            "timestamp": "2024-06-06T17:34:36.667393",
-            "duration": 160.35816740989685,
-            "game_id": 2
-        },
-        {
-            "timestamp": "2024-06-06T17:41:41.712637",
-            "duration": 54.83779549598694,
-            "game_id": 5,
+            "timestamp": "2024-06-10T10:45:17.928076",
+            "duration": 79.49570369720459,
+            "game_id": 14,
             "DrewChampionTurnOne": false
         },
         {
-            "timestamp": "2024-06-06T17:43:01.687153",
-            "duration": 59.9749481678009,
-            "game_id": 6,
-            "DrewChampionTurnOne": false
-        },
-        {
-            "timestamp": "2024-06-06T17:44:25.545940",
-            "duration": 63.08962321281433,
-            "game_id": 7,
+            "timestamp": "2024-06-10T16:23:59.986761",
+            "duration": 56.73627424240112,
+            "game_id": 22,
             "DrewChampionTurnOne": false
         }
     ],
     "Unknown Champion": [
         {
-            "timestamp": "2024-06-06T17:39:35.214610",
-            "duration": 80.83043146133423,
-            "game_id": 3,
-            "DrewChampionTurnOne": false
-        }
-    ],
-    "Gwen": [
-        {
-            "timestamp": "2024-06-06T17:49:58.606012",
-            "duration": 31.08769679069519,
-            "game_id": 8,
-            "DrewChampionTurnOne": false
-        },
-        {
-            "timestamp": "2024-06-06T17:51:14.095043",
-            "duration": 54.64518070220947,
-            "game_id": 9,
-            "DrewChampionTurnOne": false
-        },
-        {
-            "timestamp": "2024-06-06T17:52:26.891356",
-            "duration": 52.82475781440735,
-            "game_id": 10,
-            "DrewChampionTurnOne": false
-        },
-        {
-            "timestamp": "2024-06-06T17:54:14.654466",
-            "duration": 80.69117641448975,
-            "game_id": 11,
-            "DrewChampionTurnOne": false
-        },
-        {
-            "timestamp": "2024-06-06T17:55:29.089259",
-            "duration": 52.58417725563049,
-            "game_id": 12,
+            "timestamp": "2024-06-10T10:53:41.912991",
+            "duration": 53.805280447006226,
+            "game_id": 15,
             "DrewChampionTurnOne": false
         }
     ]
