@@ -41,8 +41,8 @@ class APICaller:
                 return champion
         return "Unknown Champion"
 
-    def call_api(self):
-        while True:
+    def call_api(self, stop_event):
+        while not stop_event.is_set():
             try:
                 game_url = urllib.request.urlopen(self.game_data_link)
                 self.game_data = json.loads(game_url.read().decode())
@@ -92,7 +92,6 @@ class APICaller:
                                 print(f"Game ended, played as {self.current_champion}, duration: {game_duration} seconds, GameID: {self.game_result['GameID']}")
                             else:
                                 print(f"Game ended, but result was a loss or surrender. Not saving the duration.")
-                    print("Currently in menus")
 
             except urllib.error.URLError as e:
                 print(f"Failed to connect to the API: {e.reason}")
@@ -141,8 +140,3 @@ class APICaller:
         self.game_durations = {}
         self.save_game_durations()
         print("Removed all saved timers from game durations.")
-
-# Example usage
-if __name__ == "__main__":
-    api_caller = APICaller()
-    api_caller.call_api()
