@@ -1,9 +1,127 @@
 {
-    "Lux: Illuminated": [
+    "Nilah": [
         {
-            "timestamp": "2024-06-10T20:54:33.691628",
-            "duration": 85.49205160140991,
+            "timestamp": "2024-06-12T14:39:33.518166",
+            "duration": 118.74058389663696,
+            "game_id": 1,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-12T14:48:47.738186",
+            "duration": 76.61351585388184,
+            "game_id": 2,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-12T14:52:03.341677",
+            "duration": 171.483336687088,
+            "game_id": 3,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-12T14:53:53.630532",
+            "duration": 87.42191505432129,
+            "game_id": 4,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-12T14:55:52.531089",
+            "duration": 94.93205237388611,
+            "game_id": 5,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-12T14:58:00.221270",
+            "duration": 99.69678330421448,
+            "game_id": 6,
+            "DrewChampionTurnOne": false
+        }
+    ],
+    "Gwen": [
+        {
+            "timestamp": "2024-06-12T15:03:59.075527",
+            "duration": 56.655346393585205,
+            "game_id": 7,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-12T15:05:03.240158",
+            "duration": 44.158671379089355,
+            "game_id": 8,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-12T15:06:13.498606",
+            "duration": 52.566771030426025,
+            "game_id": 9,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-12T15:08:11.577496",
+            "duration": 85.80763697624207,
+            "game_id": 10,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-12T15:09:38.450155",
+            "duration": 62.89213442802429,
+            "game_id": 11,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-12T15:11:30.070843",
+            "duration": 89.32259106636047,
             "game_id": 12,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-12T15:13:14.693130",
+            "duration": 74.36513209342957,
+            "game_id": 13,
+            "DrewChampionTurnOne": false
+        }
+    ],
+    "Neeko": [
+        {
+            "timestamp": "2024-06-13T11:51:08.199880",
+            "duration": 48.75587725639343,
+            "game_id": 0,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-13T11:52:22.857081",
+            "duration": 52.867783546447754,
+            "game_id": 1,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-13T11:53:41.888122",
+            "duration": 53.808568239212036,
+            "game_id": 2,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-13T11:55:00.801987",
+            "duration": 53.91603660583496,
+            "game_id": 3,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-13T11:56:30.107807",
+            "duration": 65.35885381698608,
+            "game_id": 4,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-13T11:57:48.045523",
+            "duration": 53.80797338485718,
+            "game_id": 5,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-13T11:59:13.435622",
+            "duration": 59.00253081321716,
+            "game_id": 6,
             "DrewChampionTurnOne": false
         }
     ]

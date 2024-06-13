@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
+from tkinter import font
 import time
 import random
 import csv
@@ -15,10 +16,13 @@ class GameDurationsDisplay:
         self.root = tk.Tk()
         self.root.title("Game Durations Info")
 
-        self.current_deck_label = ttk.Label(self.root, text="Current Deck: ")
+        # Define custom font
+        custom_font = font.Font(family="Consolas", size=16, weight="bold")
+
+        self.current_deck_label = ttk.Label(self.root, text="Current Deck: ", font=custom_font)
         self.current_deck_label.pack()
 
-        self.timer_label = ttk.Label(self.root, text="Timer: 00:00:00")
+        self.timer_label = ttk.Label(self.root, text="Timer: 00:00:00", font=custom_font)
         self.timer_label.pack()
 
         self.tree = ttk.Treeview(self.root)
@@ -27,6 +31,11 @@ class GameDurationsDisplay:
         self.tree.heading("fastest_time", text="Fastest Time")
         self.tree.heading("average_time", text="Average Time")
         self.tree.pack(expand=True, fill="both")
+
+        # Apply font to treeview items
+        style = ttk.Style()
+        style.configure("Treeview.Heading", font=custom_font)
+        style.configure("Treeview", font=custom_font)
 
         self.clear_button = ttk.Button(self.root, text="Clear Data", command=self.clear_data)
         self.clear_button.pack()
@@ -52,6 +61,11 @@ class GameDurationsDisplay:
         self.timer_label.config(text=f"Timer: {hours:02}:{minutes:02}:{seconds:02}")
         self.root.after(1000, self.update_timer)  # Update every second
 
+    def format_duration(self, duration):
+        duration = int(duration)
+        minutes, seconds = divmod(duration, 60)
+        return f"{minutes}:{seconds:02}"
+
     def refresh_data(self):
         if self.stop_event.is_set():
             return
@@ -69,7 +83,7 @@ class GameDurationsDisplay:
             durations = [game['duration'] for game in games]
             fastest_time = min(durations)
             average_time = sum(durations) / len(durations)
-            self.tree.insert("", "end", text=champion, values=(f"{fastest_time:.2f}", f"{average_time:.2f}"))
+            self.tree.insert("", "end", text=champion, values=(self.format_duration(fastest_time), self.format_duration(average_time)))
 
         self.root.after(5000, self.refresh_data)  # Schedule the next refresh
 
@@ -103,3 +117,28 @@ class GameDurationsDisplay:
 
     def show(self):
         self.root.mainloop()
+
+# Example usage
+if __name__ == "__main__":
+    from threading import Event
+
+    def mock_get_current_deck():
+        return "Mock Deck"
+
+    def mock_clear_data():
+        print("Data cleared")
+
+    game_durations_example = {
+        "Champion1": [
+            {"timestamp": "2024-06-12T14:00:00", "duration": 120.5, "game_id": 1, "DrewChampionTurnOne": True},
+            {"timestamp": "2024-06-12T14:05:00", "duration": 130.2, "game_id": 2}
+        ],
+        "Champion2": [
+            {"timestamp": "2024-06-12T14:10:00", "duration": 140.3, "game_id": 3}
+        ]
+    }
+
+    stop_event = Event()
+
+    display = GameDurationsDisplay(game_durations_example, mock_get_current_deck, stop_event, mock_clear_data)
+    display.show()
