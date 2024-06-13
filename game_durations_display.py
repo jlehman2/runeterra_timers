@@ -5,7 +5,6 @@ import time
 import random
 import csv
 from datetime import datetime
-
 class GameDurationsDisplay:
     def __init__(self, game_durations, get_current_deck, stop_event, clear_data):
         self.game_durations = game_durations
@@ -16,14 +15,21 @@ class GameDurationsDisplay:
         self.root = tk.Tk()
         self.root.title("Game Durations Info")
 
-        # Define custom font
+        # Define custom fonts
         custom_font = font.Font(family="Consolas", size=16, weight="bold")
+        small_font = font.Font(family="Consolas", size=10, weight="bold")
 
         self.current_deck_label = ttk.Label(self.root, text="Current Deck: ", font=custom_font)
         self.current_deck_label.pack()
 
-        self.timer_label = ttk.Label(self.root, text="Timer: 00:00:00", font=custom_font)
-        self.timer_label.pack()
+        self.timer_frame = ttk.Frame(self.root)
+        self.timer_frame.pack()
+
+        self.timer_label = ttk.Label(self.timer_frame, text="Timer: 00:00:00", font=custom_font)
+        self.timer_label.pack(side=tk.LEFT)
+
+        self.restart_timer_button = ttk.Button(self.timer_frame, text="Reset", command=self.restart_timer)
+        self.restart_timer_button.pack(side=tk.LEFT, padx=10)
 
         self.tree = ttk.Treeview(self.root)
         self.tree["columns"] = ("fastest_time", "average_time")
@@ -40,9 +46,11 @@ class GameDurationsDisplay:
         self.clear_button = ttk.Button(self.root, text="Clear Data", command=self.clear_data)
         self.clear_button.pack()
 
-        # Add Save button
         self.save_button = ttk.Button(self.root, text="Save", command=self.save_data)
         self.save_button.pack()
+
+        self.developed_by_label = ttk.Label(self.root, text="Developed by lehmon", font=small_font)
+        self.developed_by_label.pack(side=tk.LEFT, anchor='sw', padx=10, pady=10)
 
         self.start_time = time.time()
         self.update_timer()
@@ -60,6 +68,9 @@ class GameDurationsDisplay:
         minutes, seconds = divmod(remainder, 60)
         self.timer_label.config(text=f"Timer: {hours:02}:{minutes:02}:{seconds:02}")
         self.root.after(1000, self.update_timer)  # Update every second
+
+    def restart_timer(self):
+        self.start_time = time.time()
 
     def format_duration(self, duration):
         duration = int(duration)
@@ -117,28 +128,3 @@ class GameDurationsDisplay:
 
     def show(self):
         self.root.mainloop()
-
-# Example usage
-if __name__ == "__main__":
-    from threading import Event
-
-    def mock_get_current_deck():
-        return "Mock Deck"
-
-    def mock_clear_data():
-        print("Data cleared")
-
-    game_durations_example = {
-        "Champion1": [
-            {"timestamp": "2024-06-12T14:00:00", "duration": 120.5, "game_id": 1, "DrewChampionTurnOne": True},
-            {"timestamp": "2024-06-12T14:05:00", "duration": 130.2, "game_id": 2}
-        ],
-        "Champion2": [
-            {"timestamp": "2024-06-12T14:10:00", "duration": 140.3, "game_id": 3}
-        ]
-    }
-
-    stop_event = Event()
-
-    display = GameDurationsDisplay(game_durations_example, mock_get_current_deck, stop_event, mock_clear_data)
-    display.show()
