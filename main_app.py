@@ -1,7 +1,6 @@
 import threading
 from api_caller import APICaller
 from game_durations_display import GameDurationsDisplay
-
 class MainApp:
     def __init__(self):
         self.game_durations = {}

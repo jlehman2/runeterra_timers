@@ -28,8 +28,11 @@ class GameDurationsDisplay:
         self.timer_label = ttk.Label(self.timer_frame, text="Timer: 00:00:00", font=custom_font)
         self.timer_label.pack(side=tk.LEFT)
 
-        self.restart_timer_button = ttk.Button(self.timer_frame, text="Reset", command=self.restart_timer)
+        self.restart_timer_button = ttk.Button(self.timer_frame, text="Restart Timer", command=self.restart_timer)
         self.restart_timer_button.pack(side=tk.LEFT, padx=10)
+
+        self.last_game_duration_label = ttk.Label(self.root, text="Last Game Duration: 00:00", font=custom_font)
+        self.last_game_duration_label.pack()
 
         self.tree = ttk.Treeview(self.root)
         self.tree["columns"] = ("fastest_time", "average_time")
@@ -88,6 +91,7 @@ class GameDurationsDisplay:
             self.tree.delete(item)
 
         # Insert new data
+        last_game_duration = 0
         for champion, games in self.game_durations.items():
             if not games:
                 continue
@@ -95,6 +99,10 @@ class GameDurationsDisplay:
             fastest_time = min(durations)
             average_time = sum(durations) / len(durations)
             self.tree.insert("", "end", text=champion, values=(self.format_duration(fastest_time), self.format_duration(average_time)))
+            last_game_duration = durations[-1]  # Get the duration of the last game
+
+        # Update last game duration label
+        self.last_game_duration_label.config(text=f"Last Game Duration: {self.format_duration(last_game_duration)}")
 
         self.root.after(5000, self.refresh_data)  # Schedule the next refresh
 
