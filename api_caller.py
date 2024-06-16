@@ -4,7 +4,6 @@ from time import sleep, time
 from datetime import datetime
 import os
 
-
 class APICaller:
     def __init__(self, game_durations, refresh_display_callback, champion_deck_file='champion_decks.json', game_durations_file='game_durations.json', champion_code_file='champion_to_code.json'):
         self.game_data_link = "http://127.0.0.1:21337/positional-rectangles"
@@ -18,6 +17,12 @@ class APICaller:
         self.game_start_time = None
         self.game_durations = game_durations
         self.refresh_display_callback = refresh_display_callback
+
+        # Active menu tracking variables
+        self.in_active_menu = False
+        self.active_menu_start_time = None
+        self.total_active_menu_time = 0
+        self.active_menu_transitions = 0
 
         with open(champion_deck_file, 'r') as file:
             self.champion_deck_mapping = json.load(file)
@@ -57,9 +62,26 @@ class APICaller:
                         first_card_code = next(iter(cards_in_deck.keys()), None)
                         if first_card_code:
                             self.champion = self.find_champion(first_card_code)
+                            # Entering active menu
+                            if not self.in_active_menu:
+                                self.in_active_menu = True
+                                self.active_menu_start_time = time()
+                                print(f"Entered active menu, playing as {self.champion}")
                     else:
                         self.champion = "In Menus"
+                        # Exiting active menu to inactive menu
+                        if self.in_active_menu:
+                            self.in_active_menu = False
+                            print(f"Discarding active menu time as transitioned to inactive menu.")
                 else:
+                    # Exiting active menu
+                    if self.in_active_menu:
+                        self.in_active_menu = False
+                        active_menu_duration = time() - self.active_menu_start_time
+                        self.total_active_menu_time += active_menu_duration
+                        self.active_menu_transitions += 1
+                        print(f"Exited active menu, duration: {active_menu_duration} seconds")
+
                     if not self.in_game:
                         # Game has started
                         self.in_game = True
@@ -110,3 +132,8 @@ class APICaller:
 
     def get_champion(self):
         return self.champion
+
+    def get_average_active_menu_time(self):
+        if self.active_menu_transitions > 0:
+            return self.total_active_menu_time / self.active_menu_transitions
+        return 0
