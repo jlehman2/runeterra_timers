@@ -8,11 +8,14 @@ import json
 
 
 class GameDurationsDisplay:
-    def __init__(self, game_durations, get_current_deck, stop_event, clear_data):
+    def __init__(self, game_durations, get_current_deck, stop_event, clear_data, get_current_active_menu_time,
+                 get_average_active_menu_time):
         self.game_durations = game_durations
         self.get_current_deck = get_current_deck
         self.stop_event = stop_event
         self.clear_data = clear_data
+        self.get_current_active_menu_time = get_current_active_menu_time
+        self.get_average_active_menu_time = get_average_active_menu_time
 
         self.root = tk.Tk()
         self.root.title("Game Durations Info")
@@ -26,24 +29,32 @@ class GameDurationsDisplay:
         style.configure("TLabel", background="#2c3e50", foreground="white", font=arcade_font)
         style.configure("TButton", background="#2c3e50", foreground="white", font=arcade_font)
         style.configure("Treeview.Heading", background="#2E0854", foreground="white", font=arcade_font)
-        style.configure("Treeview", background="charcoal", foreground="white", fieldbackground="charcoal", font=arcade_font)
+        style.configure("Treeview", background="charcoal", foreground="white", fieldbackground="charcoal",
+                        font=arcade_font)
 
         self.root.configure(background="#2c3e50")
 
         self.current_deck_label = ttk.Label(self.root, text="Current Deck: ", style="TLabel")
         self.current_deck_label.pack()
 
-        self.timer_frame = ttk.Frame(self.root, style="TFrame")
-        self.timer_frame.pack()
+        self.timer_box_frame = ttk.Frame(self.root, style="TFrame", relief=tk.RIDGE, borderwidth=2)
+        self.timer_box_frame.pack(padx=10, pady=10, fill=tk.BOTH)
 
-        self.timer_label = ttk.Label(self.timer_frame, text="Timer: 00:00:00", style="TLabel")
-        self.timer_label.pack(side=tk.LEFT)
+        self.timer_tree = ttk.Treeview(self.timer_box_frame, style="Treeview",
+                                       columns=("timer", "current_time", "average_time"), height=2)
+        self.timer_tree.heading("#0", text="")
+        self.timer_tree.heading("timer", text="Timer")
+        self.timer_tree.heading("current_time", text="Cur_Menu")
+        self.timer_tree.heading("average_time", text="Avg_Menu")
+        self.timer_tree.column("#0", width=0, stretch=tk.NO)
+        self.timer_tree.column("timer", anchor=tk.CENTER, width=150)
+        self.timer_tree.column("current_time", anchor=tk.CENTER, width=200)
+        self.timer_tree.column("average_time", anchor=tk.CENTER, width=200)
+        self.timer_tree.pack(expand=False, fill=tk.X, padx=5, pady=5)
 
-        self.restart_timer_button = ttk.Button(self.timer_frame, text="Restart Timer", command=self.restart_timer, style="TButton")
-        self.restart_timer_button.pack(side=tk.LEFT, padx=10)
-
-        self.last_game_duration_label = ttk.Label(self.root, text="Last Game Duration: 00:00", style="TLabel")
-        self.last_game_duration_label.pack()
+        self.restart_timer_button = ttk.Button(self.timer_box_frame, text="Restart Timer", command=self.restart_timer,
+                                               style="TButton")
+        self.restart_timer_button.pack(pady=5)
 
         self.tree = ttk.Treeview(self.root, style="Treeview")
         self.tree["columns"] = ("fastest_time", "average_time")
@@ -81,7 +92,20 @@ class GameDurationsDisplay:
         elapsed_time = int(time.time() - self.start_time)
         hours, remainder = divmod(elapsed_time, 3600)
         minutes, seconds = divmod(remainder, 60)
-        self.timer_label.config(text=f"Timer: {hours:02}:{minutes:02}:{seconds:02}")
+        timer_str = f"{hours:02}:{minutes:02}:{seconds:02}"
+
+        # Update timer tree
+        current_active_menu_time = int(self.get_current_active_menu_time())
+        minutes_current, seconds_current = divmod(current_active_menu_time, 60)
+        current_time_str = f"{minutes_current:02}:{seconds_current:02}"
+
+        average_active_menu_time = int(self.get_average_active_menu_time())
+        minutes_average, seconds_average = divmod(average_active_menu_time, 60)
+        average_time_str = f"{minutes_average:02}:{seconds_average:02}"
+
+        self.timer_tree.delete(*self.timer_tree.get_children())
+        self.timer_tree.insert("", "end", values=(timer_str, current_time_str, average_time_str))
+
         self.root.after(1000, self.update_timer)
 
     def restart_timer(self):
@@ -112,7 +136,6 @@ class GameDurationsDisplay:
                              values=(self.format_duration(fastest_time), self.format_duration(average_time)))
             last_game_duration = durations[-1]
 
-        self.last_game_duration_label.config(text=f"Last Game Duration: {self.format_duration(last_game_duration)}")
         self.root.after(5000, self.refresh_data)
 
     def save_data(self):

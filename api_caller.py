@@ -23,6 +23,7 @@ class APICaller:
         self.active_menu_start_time = None
         self.total_active_menu_time = 0
         self.active_menu_transitions = 0
+        self.active_menu_durations = []
 
         with open(champion_deck_file, 'r') as file:
             self.champion_deck_mapping = json.load(file)
@@ -80,6 +81,8 @@ class APICaller:
                         active_menu_duration = time() - self.active_menu_start_time
                         self.total_active_menu_time += active_menu_duration
                         self.active_menu_transitions += 1
+                        self.active_menu_durations.append(active_menu_duration)
+                        self.save_active_menu_durations()
                         print(f"Exited active menu, duration: {active_menu_duration} seconds")
 
                     if not self.in_game:
@@ -124,9 +127,15 @@ class APICaller:
         with open(self.game_durations_file, 'w') as file:
             json.dump(self.game_durations, file, indent=4)
 
+    def save_active_menu_durations(self):
+        with open('active_menu_durations.json', 'w') as file:
+            json.dump(self.active_menu_durations, file, indent=4)
+
     def clear_all_data(self):
         self.game_durations.clear()
+        self.active_menu_durations.clear()
         self.save_game_durations()
+        self.save_active_menu_durations()
         self.refresh_display_callback()
         print("Cleared all game durations data.")
 
@@ -136,4 +145,9 @@ class APICaller:
     def get_average_active_menu_time(self):
         if self.active_menu_transitions > 0:
             return self.total_active_menu_time / self.active_menu_transitions
+        return 0
+
+    def get_current_active_menu_time(self):
+        if self.in_active_menu:
+            return time() - self.active_menu_start_time
         return 0

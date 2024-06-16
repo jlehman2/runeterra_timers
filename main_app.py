@@ -11,7 +11,14 @@ class MainApp:
         self.api_caller = APICaller(self.game_durations, self.refresh_display)
 
         # Initialize GameDurationsDisplay after APICaller
-        self.display = GameDurationsDisplay(self.game_durations, self.get_current_deck, self.stop_event, self.clear_all_data)
+        self.display = GameDurationsDisplay(
+            self.game_durations,
+            self.get_current_deck,
+            self.stop_event,
+            self.clear_all_data,
+            self.api_caller.get_current_active_menu_time,
+            self.api_caller.get_average_active_menu_time
+        )
 
     def start(self):
         self.api_thread = threading.Thread(target=self.api_caller.call_api, args=(self.stop_event,))
