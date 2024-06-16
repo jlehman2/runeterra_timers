@@ -1,11 +1,11 @@
 import tkinter as tk
-from tkinter import ttk
-from tkinter import font, filedialog
-import time
-import random
-import csv
+from tkinter import ttk, font, filedialog
 from datetime import datetime
+import time
+import csv
+import random
 import json
+
 
 class GameDurationsDisplay:
     def __init__(self, game_durations, get_current_deck, stop_event, clear_data):
@@ -17,11 +17,9 @@ class GameDurationsDisplay:
         self.root = tk.Tk()
         self.root.title("Game Durations Info")
 
-        # Define custom fonts
         arcade_font = font.Font(family="Arcade", size=16, weight="bold")
         small_font = font.Font(family="Arcade", size=10, weight="bold")
 
-        # Set styles
         style = ttk.Style()
         style.theme_use('clam')
         style.configure("TFrame", background="#2c3e50")
@@ -54,18 +52,15 @@ class GameDurationsDisplay:
         self.tree.heading("average_time", text="Average Time")
         self.tree.pack(expand=True, fill="both")
 
-        # Create a frame for the buttons
         self.button_frame = ttk.Frame(self.root, style="TFrame")
         self.button_frame.pack(pady=10)
 
         self.clear_button = ttk.Button(self.button_frame, text="Clear Data", command=self.clear_data, style="TButton")
         self.clear_button.grid(row=0, column=0, padx=5)
 
-        # Create a menubar
         self.menubar = tk.Menu(self.root)
         self.root.config(menu=self.menubar)
 
-        # Create the File menu
         self.file_menu = tk.Menu(self.menubar, tearoff=0)
         self.menubar.add_cascade(label="File", menu=self.file_menu)
         self.file_menu.add_command(label="Save", command=self.save_data)
@@ -77,9 +72,7 @@ class GameDurationsDisplay:
         self.start_time = time.time()
         self.update_timer()
         self.refresh_data()
-        self.root.after(5000, self.refresh_data)  # Refresh every 5 seconds
-
-        # Handle window close event
+        self.root.after(5000, self.refresh_data)
         self.root.protocol("WM_DELETE_WINDOW", self.stop)
 
     def update_timer(self):
@@ -89,7 +82,7 @@ class GameDurationsDisplay:
         hours, remainder = divmod(elapsed_time, 3600)
         minutes, seconds = divmod(remainder, 60)
         self.timer_label.config(text=f"Timer: {hours:02}:{minutes:02}:{seconds:02}")
-        self.root.after(1000, self.update_timer)  # Update every second
+        self.root.after(1000, self.update_timer)
 
     def restart_timer(self):
         self.start_time = time.time()
@@ -105,11 +98,9 @@ class GameDurationsDisplay:
         current_deck = self.get_current_deck()
         self.current_deck_label.config(text=f"Current Deck: {current_deck}")
 
-        # Clear the current data
         for item in self.tree.get_children():
             self.tree.delete(item)
 
-        # Insert new data
         last_game_duration = 0
         for champion, games in self.game_durations.items():
             if not games:
@@ -119,24 +110,19 @@ class GameDurationsDisplay:
             average_time = sum(durations) / len(durations)
             self.tree.insert("", "end", text=champion,
                              values=(self.format_duration(fastest_time), self.format_duration(average_time)))
-            last_game_duration = durations[-1]  # Get the duration of the last game
+            last_game_duration = durations[-1]
 
-        # Update last game duration label
         self.last_game_duration_label.config(text=f"Last Game Duration: {self.format_duration(last_game_duration)}")
-
-        self.root.after(5000, self.refresh_data)  # Schedule the next refresh
+        self.root.after(5000, self.refresh_data)
 
     def save_data(self):
-        # Function to handle saving the data
         date_str = datetime.now().strftime("%Y%m%d")
         random_number = random.randint(1000, 9999)
         filename = f"game_durations_{date_str}_{random_number}.csv"
 
-        # Flatten the JSON structure and write to CSV
         with open(filename, 'w', newline='') as csvfile:
             fieldnames = ['Champion', 'Timestamp', 'Duration', 'GameID', 'DrewChampionTurnOne']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-
             writer.writeheader()
             for champion, games in self.game_durations.items():
                 for game in games:
@@ -147,7 +133,6 @@ class GameDurationsDisplay:
                         'GameID': game['game_id'],
                         'DrewChampionTurnOne': game.get('DrewChampionTurnOne', False)
                     })
-
         print(f"Data saved to {filename}")
 
     def stop(self):
@@ -179,10 +164,9 @@ class GameDurationsDisplay:
                         self.game_durations[champion] = []
                     self.game_durations[champion].append(game_record)
 
-            # Save the updated game durations to the JSON file
             with open('game_durations.json', 'w') as file:
                 json.dump(self.game_durations, file, indent=4)
 
-            self.refresh_data()  # Refresh the display to show the new data
+            self.refresh_data()
         except Exception as e:
             print(f"Failed to load CSV file: {e}")
