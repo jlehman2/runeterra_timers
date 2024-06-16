@@ -1,33 +1,441 @@
 {
     "Gwen": [
         {
-            "timestamp": "2024-06-14T14:06:40.330795",
-            "duration": 57.65860295295715,
-            "game_id": 2,
-            "DrewChampionTurnOne": false
-        },
-        {
-            "timestamp": "2024-06-14T14:08:22.427489",
-            "duration": 57.52270770072937,
+            "timestamp": "2024-06-15T12:44:26.314529",
+            "duration": 56.64176797866821,
             "game_id": 3,
             "DrewChampionTurnOne": false
         },
         {
-            "timestamp": "2024-06-14T14:12:45.429445",
-            "duration": 63.8070387840271,
+            "timestamp": "2024-06-15T12:46:32.722479",
+            "duration": 104.58538627624512,
+            "game_id": 4,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T12:48:09.978728",
+            "duration": 72.27767515182495,
+            "game_id": 5,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T12:50:34.221207",
+            "duration": 124.33305788040161,
+            "game_id": 0,
+            "DrewChampionTurnOne": false
+        }
+    ],
+    "Lux: Illuminated": [
+        {
+            "timestamp": "2024-06-15T12:54:30.406769",
+            "duration": 66.79898619651794,
+            "game_id": 1,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T12:56:31.527852",
+            "duration": 93.76347470283508,
+            "game_id": 2,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T12:58:04.570892",
+            "duration": 74.36564660072327,
+            "game_id": 3,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:00:15.649210",
+            "duration": 105.00401186943054,
+            "game_id": 4,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:02:05.202775",
+            "duration": 85.40924406051636,
+            "game_id": 5,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:03:41.437134",
+            "duration": 78.10443639755249,
             "game_id": 6,
             "DrewChampionTurnOne": false
         },
         {
-            "timestamp": "2024-06-14T14:15:24.301273",
-            "duration": 56.554234743118286,
+            "timestamp": "2024-06-15T13:05:53.850991",
+            "duration": 113.31070733070374,
             "game_id": 7,
             "DrewChampionTurnOne": false
         },
         {
-            "timestamp": "2024-06-14T14:25:27.359072",
-            "duration": 77.82240176200867,
+            "timestamp": "2024-06-15T13:07:54.758969",
+            "duration": 95.70408272743225,
+            "game_id": 8,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:10:12.268643",
+            "duration": 115.44020628929138,
+            "game_id": 9,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:11:41.276104",
+            "duration": 69.0056221485138,
+            "game_id": 10,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:13:21.244113",
+            "duration": 84.41757774353027,
+            "game_id": 11,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:19:24.144487",
+            "duration": 216.13608503341675,
+            "game_id": 13,
+            "DrewChampionTurnOne": false
+        }
+    ],
+    "Taliyah": [
+        {
+            "timestamp": "2024-06-15T13:21:54.417377",
+            "duration": 82.81566381454468,
+            "game_id": 14,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:23:31.607819",
+            "duration": 75.33564114570618,
+            "game_id": 15,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:25:22.074470",
+            "duration": 89.08198356628418,
+            "game_id": 16,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:27:11.645827",
+            "duration": 80.82728409767151,
+            "game_id": 17,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:28:55.002471",
+            "duration": 79.92620182037354,
+            "game_id": 18,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:30:24.850481",
+            "duration": 69.50676822662354,
+            "game_id": 19,
+            "DrewChampionTurnOne": false
+        }
+    ],
+    "Lillia": [
+        {
+            "timestamp": "2024-06-15T13:32:33.060401",
+            "duration": 47.708869218826294,
+            "game_id": 20,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:34:05.257532",
+            "duration": 63.27056336402893,
+            "game_id": 21,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:35:53.361503",
+            "duration": 86.0715742111206,
+            "game_id": 22,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:37:43.095220",
+            "duration": 80.83276724815369,
+            "game_id": 23,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:39:36.593938",
+            "duration": 90.76572704315186,
+            "game_id": 24,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:41:03.240759",
+            "duration": 60.38438129425049,
+            "game_id": 25,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:42:46.234632",
+            "duration": 79.79289865493774,
+            "game_id": 26,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:44:20.030191",
+            "duration": 63.313671350479126,
+            "game_id": 27,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:46:30.452705",
+            "duration": 108.00698256492615,
+            "game_id": 28,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:48:31.433739",
+            "duration": 95.4434585571289,
+            "game_id": 29,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:50:22.000078",
+            "duration": 94.78715372085571,
+            "game_id": 30,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T13:51:38.184310",
+            "duration": 58.690980195999146,
+            "game_id": 31,
+            "DrewChampionTurnOne": false
+        }
+    ],
+    "Yuumi": [
+        {
+            "timestamp": "2024-06-15T13:58:57.785544",
+            "duration": 60.52169489860535,
+            "game_id": 32,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:00:20.877523",
+            "duration": 61.510300397872925,
+            "game_id": 33,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:02:03.053136",
+            "duration": 81.56399083137512,
+            "game_id": 34,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:04:14.872401",
+            "duration": 104.78078293800354,
+            "game_id": 35,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:06:04.538965",
+            "duration": 87.17642116546631,
+            "game_id": 36,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:08:03.704513",
+            "duration": 98.21572661399841,
+            "game_id": 37,
+            "DrewChampionTurnOne": false
+        }
+    ],
+    "Volibear": [
+        {
+            "timestamp": "2024-06-15T14:12:22.732826",
+            "duration": 99.9349455833435,
+            "game_id": 38,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:14:32.713186",
+            "duration": 106.47755885124207,
+            "game_id": 39,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:17:21.347826",
+            "duration": 118.28233599662781,
+            "game_id": 0,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:19:04.364310",
+            "duration": 72.53746700286865,
+            "game_id": 1,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:21:24.886558",
+            "duration": 118.69232892990112,
+            "game_id": 2,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:23:22.836791",
+            "duration": 98.17472386360168,
+            "game_id": 3,
+            "DrewChampionTurnOne": false
+        }
+    ],
+    "Vi": [
+        {
+            "timestamp": "2024-06-15T14:26:19.159087",
+            "duration": 94.19439053535461,
+            "game_id": 4,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:28:52.373142",
+            "duration": 130.17985677719116,
+            "game_id": 5,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:30:47.642728",
+            "duration": 91.15819096565247,
+            "game_id": 6,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:33:16.622644",
+            "duration": 108.4240472316742,
             "game_id": 7,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:36:32.579957",
+            "duration": 175.8768253326416,
+            "game_id": 8,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:38:51.549974",
+            "duration": 117.98513531684875,
+            "game_id": 9,
+            "DrewChampionTurnOne": false
+        }
+    ],
+    "Miss Fortune": [
+        {
+            "timestamp": "2024-06-15T14:43:23.725382",
+            "duration": 57.98189187049866,
+            "game_id": 10,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:44:36.291910",
+            "duration": 50.929256200790405,
+            "game_id": 11,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:45:44.110616",
+            "duration": 42.39107966423035,
+            "game_id": 12,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:46:53.328620",
+            "duration": 45.84876751899719,
+            "game_id": 13,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:48:40.507636",
+            "duration": 85.80921268463135,
+            "game_id": 14,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:50:10.828616",
+            "duration": 66.26136231422424,
+            "game_id": 15,
+            "DrewChampionTurnOne": false
+        }
+    ],
+    "Nidalee": [
+        {
+            "timestamp": "2024-06-15T14:53:49.792600",
+            "duration": 61.00041174888611,
+            "game_id": 16,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:55:07.561527",
+            "duration": 52.58604025840759,
+            "game_id": 17,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:56:31.381319",
+            "duration": 61.728596210479736,
+            "game_id": 18,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:58:36.678273",
+            "duration": 102.02722644805908,
+            "game_id": 19,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T14:59:59.106561",
+            "duration": 62.01229667663574,
+            "game_id": 20,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T15:01:54.387594",
+            "duration": 91.61512231826782,
+            "game_id": 21,
+            "DrewChampionTurnOne": false
+        }
+    ],
+    "Samira": [
+        {
+            "timestamp": "2024-06-15T15:05:56.561051",
+            "duration": 61.02363419532776,
+            "game_id": 22,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T15:07:41.918567",
+            "duration": 80.9760172367096,
+            "game_id": 23,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T15:09:30.371421",
+            "duration": 86.85557126998901,
+            "game_id": 24,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T15:11:46.005851",
+            "duration": 108.64977240562439,
+            "game_id": 25,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T15:14:51.364269",
+            "duration": 159.14824318885803,
+            "game_id": 26,
+            "DrewChampionTurnOne": false
+        },
+        {
+            "timestamp": "2024-06-15T15:16:33.425793",
+            "duration": 75.00227522850037,
+            "game_id": 27,
             "DrewChampionTurnOne": false
         }
     ]
