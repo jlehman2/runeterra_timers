@@ -5,7 +5,7 @@ from datetime import datetime
 import os
 
 class APICaller:
-    def __init__(self, game_durations, refresh_display_callback, champion_deck_file='champion_decks.json', game_durations_file='game_durations.json', champion_code_file='champion_to_code.json'):
+    def __init__(self, game_durations, refresh_display_callback, champion_deck_file='champion_decks.json', game_durations_file='game_durations.json', champion_code_file='champion_to_code.json', active_menu_durations_file='active_menu_durations.json'):
         self.game_data_link = "http://127.0.0.1:21337/positional-rectangles"
         self.deck_link = "http://127.0.0.1:21337/static-decklist"
         self.game_result_link = "http://127.0.0.1:21337/game-result"
@@ -25,6 +25,7 @@ class APICaller:
         self.active_menu_transitions = 0
         self.active_menu_durations = []
 
+        # Load mappings and durations from files
         with open(champion_deck_file, 'r') as file:
             self.champion_deck_mapping = json.load(file)
 
@@ -33,11 +34,27 @@ class APICaller:
 
         self.champion_deck_file = champion_deck_file
         self.game_durations_file = game_durations_file
+        self.active_menu_durations_file = active_menu_durations_file
 
         # Load existing game durations if the file exists
         if os.path.exists(self.game_durations_file):
             with open(self.game_durations_file, 'r') as file:
-                self.game_durations.update(json.load(file))
+                try:
+                    self.game_durations.update(json.load(file))
+                except json.JSONDecodeError:
+                    print(f"Error: {self.game_durations_file} is empty or not properly formatted. Initializing empty game durations.")
+                    self.game_durations = {}
+
+        # Load existing active menu durations if the file exists
+        if os.path.exists(self.active_menu_durations_file):
+            with open(self.active_menu_durations_file, 'r') as file:
+                try:
+                    self.active_menu_durations = json.load(file)
+                    self.total_active_menu_time = sum(self.active_menu_durations)
+                    self.active_menu_transitions = len(self.active_menu_durations)
+                except json.JSONDecodeError:
+                    print(f"Error: {self.active_menu_durations_file} is empty or not properly formatted. Initializing empty active menu durations.")
+                    self.active_menu_durations = []
 
     def find_champion(self, first_card_code):
         for champion, card_code in self.champion_code_mapping.items():
@@ -83,6 +100,7 @@ class APICaller:
                         self.active_menu_transitions += 1
                         self.active_menu_durations.append(active_menu_duration)
                         self.save_active_menu_durations()
+                        self.refresh_display_callback()
                         print(f"Exited active menu, duration: {active_menu_duration} seconds")
 
                     if not self.in_game:
@@ -128,12 +146,14 @@ class APICaller:
             json.dump(self.game_durations, file, indent=4)
 
     def save_active_menu_durations(self):
-        with open('active_menu_durations.json', 'w') as file:
+        with open(self.active_menu_durations_file, 'w') as file:
             json.dump(self.active_menu_durations, file, indent=4)
 
     def clear_all_data(self):
         self.game_durations.clear()
         self.active_menu_durations.clear()
+        self.total_active_menu_time = 0
+        self.active_menu_transitions = 0
         self.save_game_durations()
         self.save_active_menu_durations()
         self.refresh_display_callback()
