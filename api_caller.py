@@ -69,10 +69,6 @@ class APICaller:
                         self.current_champion = self.champion
                         print(f"Game started, playing as {self.current_champion}")
 
-                        # Save the image to the specified location
-                        # uncomment if you want this script for obs
-                        # self.save_champion_image(self.current_champion)
-
                 else:
                     if self.in_game:
                         # Game has ended
@@ -107,40 +103,6 @@ class APICaller:
                 sleep(5)  # Wait for a while before trying again
 
             sleep(2.1)
-
-    def save_champion_image(self, champion_name):
-        image_directory = "C:\\Users\\joela\\PycharmProjects\\LoR_Timers\\images"
-        destination_path = os.path.join("C:\\Users\\joela\\AppData\\Roaming\\slobs-client\\Media", "current_champ.png")
-        default_image = os.path.join(image_directory, "default.png")
-
-        # Handle special case for Lux: Illuminated
-        if champion_name.lower() == "lux: illuminated":
-            original_image_file = "lux illuminated.png"
-        else:
-            original_image_file = f"{champion_name}.png"
-
-        # List all files in the images directory
-        files_in_directory = os.listdir(image_directory)
-
-        # Perform a case-insensitive match for the champion image
-        original_image_file = next((f for f in files_in_directory if f.lower() == original_image_file.lower()), None)
-
-        if original_image_file:
-            try:
-                # Copy the champion-specific image from the images directory and save it as 'current_champ.png'
-                shutil.copy(os.path.join(image_directory, original_image_file), destination_path)
-                print(f"Saved {original_image_file} as {destination_path}")
-            except Exception as e:
-                print(f"An error occurred while saving the image: {e}")
-        else:
-            try:
-                # If the champion image is not found, copy the default image instead
-                shutil.copy(default_image, destination_path)
-                print(f"{champion_name}.png not found. Saved default image as {destination_path}")
-            except FileNotFoundError:
-                print(f"Default image {default_image} not found.")
-            except Exception as e:
-                print(f"An error occurred while saving the default image: {e}")
 
     def save_game_durations(self):
         with open(self.game_durations_file, 'w') as file:
