@@ -1,0 +1,6523 @@
+{
+    "01SI053": {
+        "name": "Elise",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01NX046": {
+        "name": "Arachnoid Sentry",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01SI002": {
+        "name": "Spiderling",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "None",
+        "spellSpeed": "",
+        "collectible": false
+    },
+    "06SI037": {
+        "name": "Shadow Isles Tellstones",
+        "type": "Spell",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "06NX013": {
+        "name": "Spell Slinger",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01SI056": {
+        "name": "Frenzied Skitterer",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04NX016": {
+        "name": "Shrieking Spinner",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01NX023": {
+        "name": "Arachnoid Host",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 5,
+        "attack": 5,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01SI050": {
+        "name": "Brood Awakening",
+        "type": "Spell",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 6,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "06RU026": {
+        "name": "Aatrox",
+        "type": "Unit",
+        "regions": [
+            "Runeterra"
+        ],
+        "cost": 6,
+        "attack": 5,
+        "health": 5,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06PZ037": {
+        "name": "The Violent Dischord",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "06SI006": {
+        "name": "Keeper of the Box",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BC028": {
+        "name": "Blooming Cultist",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06SH005": {
+        "name": "Forsaken Baccai",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06NX034": {
+        "name": "Furious Wielder",
+        "type": "Spell",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "06BC029": {
+        "name": "The Darkin Staff",
+        "type": "Equipment",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06DE011": {
+        "name": "The Darkin Aegis",
+        "type": "Equipment",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06DE029": {
+        "name": "Steadfast Elkin",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05IO004": {
+        "name": "Ahri",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04IO015": {
+        "name": "Dancing Droplet",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "09IO056": {
+        "name": "Sprite Dance",
+        "type": "Spell",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "09IO053": {
+        "name": "Mister Root",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01IO042": {
+        "name": "Sparring Student",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05IO003": {
+        "name": "Pathless Ancient",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06IO004": {
+        "name": "The Maker",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03IO005": {
+        "name": "Homecoming",
+        "type": "Spell",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "05IO023": {
+        "name": "Charm",
+        "type": "Spell",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "98NX003": {
+        "name": "Ambessa",
+        "type": "Unit",
+        "regions": "Noxus",
+        "cost": "4",
+        "attack": "",
+        "health": "3",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "03NX003": {
+        "name": "Blade Squire",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01NX037": {
+        "name": "Legion Grenadier",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "98NX008": {
+        "name": "Rictus",
+        "type": "Unit",
+        "regions": "Noxus",
+        "cost": "2",
+        "attack": "",
+        "health": "2",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "01NX021": {
+        "name": "Legion Marauder",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "98NX005": {
+        "name": "Cunning Sweep",
+        "type": "Spell",
+        "regions": "Noxus",
+        "cost": "1",
+        "attack": "",
+        "health": "",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "01NX017": {
+        "name": "Legion Drummer",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "98NX004": {
+        "name": "Public Execution",
+        "type": "Spell",
+        "regions": "Noxus",
+        "cost": "6",
+        "attack": "",
+        "health": "",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "01NX024": {
+        "name": "Kato The Arm",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 5,
+        "attack": 5,
+        "health": 4,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06NX012": {
+        "name": "Annie",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 2,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01NX040": {
+        "name": "Legion Saboteur",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01NX055": {
+        "name": "House Spider",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06NX015": {
+        "name": "Manasoul Student",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06NX008": {
+        "name": "The Prefect",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 3,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06NX009": {
+        "name": "Captive Greyback",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06NX014": {
+        "name": "Disintegrate",
+        "type": "Spell",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "02NX008": {
+        "name": "Death's Hand",
+        "type": "Spell",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "01FR038": {
+        "name": "Ashe",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 4,
+        "attack": 5,
+        "health": 3,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01FR022": {
+        "name": "Omen Hawk",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01FR011": {
+        "name": "Icevale Archer",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01FR018": {
+        "name": "Rimefang Wolf",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01FR026": {
+        "name": "Alpha Wildclaw",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 6,
+        "attack": 7,
+        "health": 6,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01FR003": {
+        "name": "Avarosan Sentry",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01FR048": {
+        "name": "Avarosan Trapper",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01FR001": {
+        "name": "Flash Freeze",
+        "type": "Spell",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "02FR010": {
+        "name": "Shared Spoils",
+        "type": "Spell",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "03MT087": {
+        "name": "Aurelion Sol",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 10,
+        "attack": 10,
+        "health": 10,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT096": {
+        "name": "Solari Priestess",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05MT006": {
+        "name": "Wounded Whiteflame",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT086": {
+        "name": "Spacey Sketcher",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT015": {
+        "name": "Behold the Infinite",
+        "type": "Spell",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "05MT014": {
+        "name": "Celestial Wonder",
+        "type": "Spell",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "03MT092": {
+        "name": "Mountain Goat",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT079": {
+        "name": "Starry Scamp",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT084": {
+        "name": "Starshaping",
+        "type": "Spell",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "06RU001": {
+        "name": "Bard",
+        "type": "Unit",
+        "regions": [
+            "Runeterra"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 5,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BC026": {
+        "name": "Byrd, The Bellringer",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06MT029": {
+        "name": "Esmus, Breath of the World",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "99MT003": {
+        "name": "Starlight Stag",
+        "type": "Unit",
+        "regions": "Targon",
+        "cost": "5",
+        "attack": "",
+        "health": "5",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "05BC167": {
+        "name": "Bandle Commando",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BC051": {
+        "name": "Banana Blaster",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC007": {
+        "name": "Stone Stackers",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BC044": {
+        "name": "Cosmic Binding",
+        "type": "Spell",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "05BC001": {
+        "name": "Minimorph",
+        "type": "Spell",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 6,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "99PZ114": {
+        "name": "House Whump",
+        "type": "Unit",
+        "regions": "Piltover &Zaun",
+        "cost": "1",
+        "attack": "",
+        "health": "1",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "07PZ017": {
+        "name": "Flashbomb Peddler",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05PZ009": {
+        "name": "Sting Officer",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05PZ010": {
+        "name": "Advanced Intel",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "05PZ006": {
+        "name": "Caitlyn",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "99PZ101": {
+        "name": "Double Agent",
+        "type": "Unit",
+        "regions": "Piltover &Zaun",
+        "cost": "3",
+        "attack": "",
+        "health": "3",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "05PZ013": {
+        "name": "Piltover Peacemaker",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "05PZ015": {
+        "name": "Justice Rider",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 5,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05PZ004": {
+        "name": "Officer Squad",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 5,
+        "attack": 4,
+        "health": 5,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01NX038": {
+        "name": "Darius",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 6,
+        "attack": 6,
+        "health": 6,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01NX034": {
+        "name": "Affectionate Poro",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01NX030": {
+        "name": "Crimson Disciple",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02NX005": {
+        "name": "Iron Ballista",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 3,
+        "attack": 4,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04NX010": {
+        "name": "Thorn of the Rose",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 3,
+        "attack": 5,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01NX033": {
+        "name": "Trifarian Assessor",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04NX015": {
+        "name": "Bloody Business",
+        "type": "Spell",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "03MT056": {
+        "name": "Diana",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT073": {
+        "name": "Lunari Duskbringer",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT094": {
+        "name": "Lunari Shadestalker",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT075": {
+        "name": "Lunari Priestess",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT089": {
+        "name": "Crescent Guardian",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT220": {
+        "name": "The Cloven Way",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT035": {
+        "name": "Pale Cascade",
+        "type": "Spell",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "04MT015": {
+        "name": "Heavens Aligned",
+        "type": "Spell",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "04PZ001": {
+        "name": "Ekko",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 2,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04PZ002": {
+        "name": "Fallen Feline",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04PZ004": {
+        "name": "Dropboarder",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02PZ010": {
+        "name": "Veteran Investigator",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04PZ012": {
+        "name": "Practical Perfectionist",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 4,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01PZ009": {
+        "name": "Amateur Aeronaut",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04PZ003": {
+        "name": "Timewinder",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "04PZ007": {
+        "name": "Time Trick",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "03PZ013": {
+        "name": "Iterative Improvement",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "08RU014": {
+        "name": "Elder Dragon",
+        "type": "Unit",
+        "regions": [
+            "Runeterra"
+        ],
+        "cost": 12,
+        "attack": 12,
+        "health": 12,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "08MT024": {
+        "name": "Ruby-Eyed Conjurer",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03DE014": {
+        "name": "Sharpsight",
+        "type": "Spell",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "04MT004": {
+        "name": "Blue Sentinel",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03DE002": {
+        "name": "Strafing Strike",
+        "type": "Spell",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "08MT031": {
+        "name": "Ottrani Dragon-Worshiper",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 3,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04DE016": {
+        "name": "Kadregrin the Ruined",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 6,
+        "attack": 6,
+        "health": 6,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03DE013": {
+        "name": "Stalking Broodmother",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 7,
+        "attack": 7,
+        "health": 7,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06RU025": {
+        "name": "Evelynn",
+        "type": "Unit",
+        "regions": [
+            "Runeterra"
+        ],
+        "cost": 4,
+        "attack": 0,
+        "health": 5,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01SI026": {
+        "name": "Warden's Prey",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06SI046": {
+        "name": "Ceaseless Sentry",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06SI020": {
+        "name": "Hate Spike",
+        "type": "Spell",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "06SI019": {
+        "name": "Sultur",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06SH034": {
+        "name": "Domination",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 2,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07BW033": {
+        "name": "Siren Song",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 6,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "06SI018": {
+        "name": "Vora",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BW018": {
+        "name": "Steem",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "98RU004": {
+        "name": "Fiddlesticks",
+        "type": "Unit",
+        "regions": "Runeterra",
+        "cost": "3",
+        "attack": "",
+        "health": "6",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "98SH001": {
+        "name": "Lurking Nightmare",
+        "type": "Unit",
+        "regions": "Shurima",
+        "cost": "1",
+        "attack": "",
+        "health": "1",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "01SI039": {
+        "name": "Arachnoid Horror",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "98BC001": {
+        "name": "False Friend",
+        "type": "Unit",
+        "regions": "Bandle City",
+        "cost": "2",
+        "attack": "",
+        "health": "3",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "98BW002": {
+        "name": "Shallows Siren",
+        "type": "Unit",
+        "regions": "Bilgewater",
+        "cost": "3",
+        "attack": "",
+        "health": "4",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "98SI002": {
+        "name": "Reap",
+        "type": "Spell",
+        "regions": "Shadow Isles",
+        "cost": "2",
+        "attack": "",
+        "health": "",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "98DE001": {
+        "name": "Baleful Seeker",
+        "type": "Unit",
+        "regions": "Demacia",
+        "cost": "4",
+        "attack": "",
+        "health": "3",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "98RU003": {
+        "name": "Crowstorm",
+        "type": "Spell",
+        "regions": "Runeterra",
+        "cost": "7",
+        "attack": "",
+        "health": "",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "98SI003": {
+        "name": "Dread Harvester",
+        "type": "Unit",
+        "regions": "Shadow Isles",
+        "cost": "8",
+        "attack": "",
+        "health": "5",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "01DE012": {
+        "name": "Garen",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 5,
+        "attack": 5,
+        "health": 5,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01DE029": {
+        "name": "Fleetfeather Tracker",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01DE009": {
+        "name": "Brightsteel Protector",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01DE020": {
+        "name": "Vanguard Defender",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01DE011": {
+        "name": "Laurent Protege",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 4,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01DE054": {
+        "name": "Vanguard Redeemer",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01DE003": {
+        "name": "Laurent Bladekeeper",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01DE033": {
+        "name": "Remembrance",
+        "type": "Spell",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 6,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "05BC161": {
+        "name": "Gnar",
+        "type": "Unit",
+        "regions": [
+            "Bandle City",
+            "Freljord"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 3,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC160": {
+        "name": "Proto Poro",
+        "type": "Unit",
+        "regions": [
+            "Bandle City",
+            "Freljord"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC015": {
+        "name": "Bitsy Lizard",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC162": {
+        "name": "Chief Nakotak",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC014": {
+        "name": "Teenydactyl",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05FR006": {
+        "name": "Tusk Speaker",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC166": {
+        "name": "Pokey Stick",
+        "type": "Spell",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "05BC104": {
+        "name": "Primal Strength",
+        "type": "Spell",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "05BC141": {
+        "name": "Heroic Refrain",
+        "type": "Spell",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "06SI012": {
+        "name": "Gwen",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 4,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06SI016": {
+        "name": "Boisterous Host",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06SI028": {
+        "name": "Phantom Butler",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06SI026": {
+        "name": "Conductor Of The Mists",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 3,
+        "attack": 4,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01SI041": {
+        "name": "The Undying",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 2,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01SI032": {
+        "name": "Chronicler of Ruin",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02SI009": {
+        "name": "Sapling Toss",
+        "type": "Spell",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "01SI049": {
+        "name": "Glimpse Beyond",
+        "type": "Spell",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "01SI025": {
+        "name": "Atrocity",
+        "type": "Spell",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 7,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "01PZ056T4": {
+        "name": "Mk1: Wrenchbot",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "None",
+        "spellSpeed": "",
+        "collectible": false
+    },
+    "05BC049": {
+        "name": "Conchologist",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 1,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01PZ016": {
+        "name": "Flash of Brilliance",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "01PZ059": {
+        "name": "Golden Crushbot",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 5,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05PZ029": {
+        "name": "Hextech Handler",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03PZ011": {
+        "name": "Aftershock",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "01PZ056": {
+        "name": "Heimerdinger",
+        "type": "Unit",
+        "regions": [
+            "Bandle City",
+            "Piltover & Zaun"
+        ],
+        "cost": 5,
+        "attack": 2,
+        "health": 4,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06PZ034": {
+        "name": "Hexbliterator",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 6,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "07PZ015": {
+        "name": "Epic Scraptraption",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "06BW006": {
+        "name": "Illaoi",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 6,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BW007": {
+        "name": "Watchful Idol",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 4,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC106": {
+        "name": "Grumbleslug",
+        "type": "Unit",
+        "regions": [
+            "Bandle City",
+            "Bilgewater"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BW002": {
+        "name": "Journeying Sandhopper",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 3,
+        "attack": 4,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BW035": {
+        "name": "The Sea's Voice",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BW016": {
+        "name": "Buhru Lookout",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 5,
+        "attack": 4,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BW015": {
+        "name": "Answered Prayer",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "06BW028": {
+        "name": "Tentacle Smash",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "06BW030": {
+        "name": "Eye of Nagakabouros",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "07BW002": {
+        "name": "Jack",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 5,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07BW003": {
+        "name": "Pocket Picker",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07BW041": {
+        "name": "Barknuckles",
+        "type": "Equipment",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07BW040": {
+        "name": "Nukkle",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 1,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07BW018": {
+        "name": "Mad Ol' Babs",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07BW014": {
+        "name": "Five-Punch Pablo",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 3,
+        "attack": 4,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02BW057": {
+        "name": "Slippery Waverider",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 5,
+        "attack": 4,
+        "health": 4,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07BW006": {
+        "name": "Risky Venture",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "rarity": "EPIC",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "02BW018": {
+        "name": "Parrrley",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "08PZ001": {
+        "name": "Janna",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 4,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05PZ025": {
+        "name": "Forge Chief",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03PZ005": {
+        "name": "Ballistic Bot",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "08PZ019": {
+        "name": "Divine Whirlwind",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 6,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "02PZ005": {
+        "name": "Patrol Wardens",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 4,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01PZ038": {
+        "name": "Sump Dredger",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 4,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02PZ006": {
+        "name": "Gotcha!",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "08PZ002": {
+        "name": "Howling Gale",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "08PZ020": {
+        "name": "Exalted Cloudwinder",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 5,
+        "attack": 2,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06RU008": {
+        "name": "Jax",
+        "type": "Unit",
+        "regions": [
+            "Runeterra"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH005": {
+        "name": "Bloodthirsty Marauder",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 1,
+        "attack": 3,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06NX023": {
+        "name": "Ionian Hookmaster",
+        "type": "Unit",
+        "regions": [
+            "Noxus",
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06MT004": {
+        "name": "Wandering Shepherd",
+        "type": "Unit",
+        "regions": [
+            "Targon",
+            "Bandle City"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH103": {
+        "name": "Merciless Hunter",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 3,
+        "attack": 4,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06DE006": {
+        "name": "Combat Cook",
+        "type": "Unit",
+        "regions": [
+            "Demacia",
+            "Freljord"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BW029": {
+        "name": "Piltovan Castaway",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater",
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06DE024": {
+        "name": "Catch!",
+        "type": "Spell",
+        "regions": [
+            "Demacia",
+            "Freljord"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "05SH022": {
+        "name": "Desert Duel",
+        "type": "Spell",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "05PZ022": {
+        "name": "Jayce",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 4,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05PZ026": {
+        "name": "Assembly Line",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 6,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "05PZ021": {
+        "name": "The Forge Of Tomorrow",
+        "type": "Landmark",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "08PZ008": {
+        "name": "Maryam, Temple Caretaker",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05PZ027": {
+        "name": "Shock Blast",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 6,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "05PZ028": {
+        "name": "Ferros Skycruiser",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 4,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05PZ024": {
+        "name": "Ferros Financier",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06RU002": {
+        "name": "Jhin",
+        "type": "Unit",
+        "regions": [
+            "Runeterra"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 4,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02BW060": {
+        "name": "Crackshot Corsair",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06IO003": {
+        "name": "The Stagehand",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 4,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01PZ054": {
+        "name": "Boomcrew Rookie",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01FR036": {
+        "name": "Avarosan Marksman",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01IO056": {
+        "name": "Yone, Windchaser",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 6,
+        "attack": 6,
+        "health": 6,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01PZ027": {
+        "name": "Thermogenic Beam",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 0,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "01PZ052": {
+        "name": "Mystic Shot",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "01PZ040": {
+        "name": "Jinx",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 3,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "99PZ130": {
+        "name": "Pow-Pow",
+        "type": "Spell",
+        "regions": "Piltover &Zaun",
+        "cost": "2",
+        "attack": "",
+        "health": "",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "99PZ104": {
+        "name": "Rocketboarder",
+        "type": "Unit",
+        "regions": "Piltover &Zaun",
+        "cost": "2",
+        "attack": "",
+        "health": "3",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "01PZ019": {
+        "name": "Eager Apprentice",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01PZ045": {
+        "name": "Zaunite Urchin",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01PZ028": {
+        "name": "Jury-Rig",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "06SH009": {
+        "name": "Kai'Sa",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 5,
+        "attack": 5,
+        "health": 5,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH045": {
+        "name": "Exhaust",
+        "type": "Spell",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "06SH017": {
+        "name": "Void Seeker",
+        "type": "Spell",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "06SH007": {
+        "name": "Voidling",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH001": {
+        "name": "Aspiring Chronomancer",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06SH008": {
+        "name": "Belvethi Elder",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH035": {
+        "name": "Payday",
+        "type": "Spell",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "06SH010": {
+        "name": "Void Blaster",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 4,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06SH016": {
+        "name": "Hive Herald",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 6,
+        "attack": 3,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06MT008": {
+        "name": "Kayle",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 5,
+        "attack": 1,
+        "health": 5,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07MT007": {
+        "name": "Sacrificial Scholar",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 2,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT048": {
+        "name": "Gift Giver",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05MT010": {
+        "name": "Blinded Mystic",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT028": {
+        "name": "Solari Shieldbearer",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06MT049": {
+        "name": "Mikhael's Blessing",
+        "type": "Spell",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "05MT008": {
+        "name": "Shield Vault",
+        "type": "Spell",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "06MT016": {
+        "name": "Winged Messenger",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 4,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06RU005": {
+        "name": "Kayn",
+        "type": "Unit",
+        "regions": [
+            "Runeterra"
+        ],
+        "cost": 5,
+        "attack": 2,
+        "health": 5,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05MT005": {
+        "name": "Saga Seeker",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT016": {
+        "name": "Startled Stomper",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06DE010": {
+        "name": "Ranger-Knight Defector",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06MT006": {
+        "name": "The Darkin Lodestone",
+        "type": "Equipment",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06IO025": {
+        "name": "Shadowblade Fanatic",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06NX019": {
+        "name": "Noxian Defector",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 4,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06IO034": {
+        "name": "Momentous Choice",
+        "type": "Spell",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "04SI005": {
+        "name": "Kindred",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 3,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SI004": {
+        "name": "The Wings and The Wave",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 1,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SI003": {
+        "name": "Fading Icon",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SI013": {
+        "name": "Mask Mother",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01SI038": {
+        "name": "Phantom Prankster",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SI016": {
+        "name": "Spirit Leech ",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01SI051": {
+        "name": "Tortured Prodigy",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 5,
+        "attack": 4,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01SI034": {
+        "name": "Black Spear",
+        "type": "Spell",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "03SI008": {
+        "name": "Crumble",
+        "type": "Spell",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "04NX004": {
+        "name": "LeBlanc",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 3,
+        "attack": 5,
+        "health": 2,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04NX019": {
+        "name": "Thrashing Snapper",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01NX043": {
+        "name": "Blade's Edge",
+        "type": "Spell",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "04NX002": {
+        "name": "Whispered Words",
+        "type": "Spell",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "02IO006": {
+        "name": "Lee Sin",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 5,
+        "attack": 3,
+        "health": 5,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01IO026": {
+        "name": "Inspiring Mentor",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01IO036": {
+        "name": "Greenglade Lookout",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02IO008": {
+        "name": "Sonic Wave",
+        "type": "Spell",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "01IO028": {
+        "name": "Scaled Snapper",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01IO057": {
+        "name": "Shadow Assassin",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06IO032": {
+        "name": "Unworthy Soul",
+        "type": "Spell",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "02IO002": {
+        "name": "Scales of the Dragon",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 3,
+        "attack": 4,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02IO005": {
+        "name": "Concussive Palm",
+        "type": "Spell",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "03MT054": {
+        "name": "Leona",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 5,
+        "attack": 3,
+        "health": 5,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT088": {
+        "name": "Solari Soldier",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04MT013": {
+        "name": "Solari Sunhawk",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05MT013": {
+        "name": "Iula",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT026": {
+        "name": "Rahvun, Daylight's Spear",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 5,
+        "attack": 5,
+        "health": 5,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT023": {
+        "name": "Sunburst",
+        "type": "Spell",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "03MT027": {
+        "name": "Zenith Blade",
+        "type": "Spell",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "09IO052": {
+        "name": "Lillia",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 1,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "09DE033": {
+        "name": "Spritelings",
+        "type": "Unit",
+        "regions": [
+            "Demacia",
+            "Ionia"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01IO020": {
+        "name": "Keeper of Masks",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "09DE045": {
+        "name": "Dreamlight Alina",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 8,
+        "attack": 1,
+        "health": 1,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "09IO049": {
+        "name": "The Dewdrop Harvest",
+        "type": "Landmark",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04IO006": {
+        "name": "Coastal Defender",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 6,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01DE042": {
+        "name": "Lux",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 5,
+        "attack": 3,
+        "health": 5,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01DE024": {
+        "name": "Mageseeker Conservator",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01DE040": {
+        "name": "Mageseeker Persuader",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01DE006": {
+        "name": "Vanguard Sergeant",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01DE048": {
+        "name": "Mageseeker Inciter",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01DE047": {
+        "name": "Succession",
+        "type": "Spell",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "09DE034": {
+        "name": "Lux: Illuminated",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 3,
+        "attack": 1,
+        "health": 2,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "09DE031": {
+        "name": "Jarro Lightfeather",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07DE005": {
+        "name": "Form Up!",
+        "type": "Spell",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "09DE029": {
+        "name": "Luminosprite",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "09DE046": {
+        "name": "Smoldering Smirk",
+        "type": "Spell",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "09DE036": {
+        "name": "Tree Sprites",
+        "type": "Unit",
+        "regions": [
+            "Demacia",
+            "Bandle City"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "09DE040": {
+        "name": "Aberrant Mageseeker",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 5,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06IO008": {
+        "name": "Master Yi",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 3,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03IO011": {
+        "name": "Swole Squirrel",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06IO001": {
+        "name": "Disciple of Doran",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06IO014": {
+        "name": "Vastayan Disciple",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01IO043": {
+        "name": "Rivershaper",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02IO009": {
+        "name": "Deep Meditation",
+        "type": "Spell",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "05IO020": {
+        "name": "Windsinger",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 6,
+        "attack": 3,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01IO018": {
+        "name": "Rush",
+        "type": "Spell",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "06IO013": {
+        "name": "Wuju Style",
+        "type": "Spell",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "02BW022": {
+        "name": "Miss Fortune",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02BW058": {
+        "name": "Jagged Butcher",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02BW005": {
+        "name": "Hired Gun",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02BW045": {
+        "name": "Make it Rain",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "02BW008": {
+        "name": "Petty Officer",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 1,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02BW062": {
+        "name": "Island Navigator",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02BW031": {
+        "name": "Double Up",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "08SI042": {
+        "name": "Mordekaiser",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles",
+            "Noxus"
+        ],
+        "cost": 7,
+        "attack": 5,
+        "health": 8,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "08SI003": {
+        "name": "Shackled Ghasts",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01SI040": {
+        "name": "Vile Feast",
+        "type": "Spell",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "01SI046": {
+        "name": "Mist's Call",
+        "type": "Spell",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "08SI041": {
+        "name": "Death's Grasp",
+        "type": "Spell",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "08NX009": {
+        "name": "Lord Mallat",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 4,
+        "attack": 5,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "08NX025": {
+        "name": "Bladepierced Revenant",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "08MT003": {
+        "name": "Morgana",
+        "type": "Unit",
+        "regions": [
+            "Targon",
+            "Demacia"
+        ],
+        "cost": 5,
+        "attack": 3,
+        "health": 4,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "08MT023": {
+        "name": "Dark Binding",
+        "type": "Spell",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "08MT015": {
+        "name": "Lisa and Dolly",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT085": {
+        "name": "Hush",
+        "type": "Spell",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "08MT005": {
+        "name": "Mihira, Aspect Ascendant",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 8,
+        "attack": 6,
+        "health": 8,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BW005": {
+        "name": "Nami",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 3,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BW037": {
+        "name": "Ransom Riches",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "EPIC",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "02BW014": {
+        "name": "Coral Creatures",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC004": {
+        "name": "Otterpus",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BW008": {
+        "name": "Abyssal Guard",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03BW017": {
+        "name": "Wiggly Burblefish",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 8,
+        "attack": 2,
+        "health": 1,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH047": {
+        "name": "Nasus",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 6,
+        "attack": 3,
+        "health": 3,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH038": {
+        "name": "Rock Hopper",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH011": {
+        "name": "Xenotype Researchers",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH081": {
+        "name": "Baccai Sandspinner",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 4,
+        "attack": 5,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH055": {
+        "name": "Ruin Runner",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 5,
+        "attack": 6,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH016": {
+        "name": "Siphoning Strike",
+        "type": "Spell",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "04SH109": {
+        "name": "Quicksand",
+        "type": "Spell",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "07RU012": {
+        "name": "Neeko",
+        "type": "Unit",
+        "regions": [
+            "Runeterra"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07SI012": {
+        "name": "Tufted Webspinner",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07FR008": {
+        "name": "Frostcoat Cub",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07SI007": {
+        "name": "Grave Companion",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 4,
+        "attack": 1,
+        "health": 5,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07NX033": {
+        "name": "Bonehide Tri-tail",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07FR016": {
+        "name": "Glacial Saurian",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 5,
+        "attack": 5,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07DE015": {
+        "name": "Crested Lionhawk",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 6,
+        "attack": 6,
+        "health": 6,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC213": {
+        "name": "Wallop",
+        "type": "Spell",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "07RU017": {
+        "name": "Shapesplitter",
+        "type": "Spell",
+        "regions": [
+            "Runeterra"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "None",
+        "spellSpeed": "Fast",
+        "collectible": false
+    },
+    "07SH013": {
+        "name": "Nidalee",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 4,
+        "attack": 5,
+        "health": 3,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07SH040": {
+        "name": "Bristlehog",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07SH039": {
+        "name": "All-Terrain Trooper",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 1,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07SH044": {
+        "name": "Aurora Hallunatis",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 3,
+        "attack": 4,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH129": {
+        "name": "Vekauran Bruiser",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 5,
+        "attack": 5,
+        "health": 5,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07SH043": {
+        "name": "Towering Pairofant",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 6,
+        "attack": 6,
+        "health": 5,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07SH011": {
+        "name": "Bushwhack Trap",
+        "type": "Landmark",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "08BW008": {
+        "name": "Nilah",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04BW006": {
+        "name": "The List",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 0,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "02BW009": {
+        "name": "Pool Shark",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02BW043": {
+        "name": "Pick a Card",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "07BW043": {
+        "name": "Tidal Invocation",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "08BW023": {
+        "name": "Vikrash the Exuberant",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 2,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02BW016": {
+        "name": "Slotbot",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 3,
+        "attack": 1,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BC015": {
+        "name": "Norra",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 2,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BC021": {
+        "name": "Junk Construct",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BC019": {
+        "name": "The Tea Maker",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC175": {
+        "name": "Loping Telescope",
+        "type": "Unit",
+        "regions": [
+            "Bandle City",
+            "Targon"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC120": {
+        "name": "Yordle Captain",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 4,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BC024": {
+        "name": "Realm's Caretaker",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 6,
+        "attack": 4,
+        "health": 5,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06BC030": {
+        "name": "Proximity Puffcap",
+        "type": "Spell",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "06BC017": {
+        "name": "Portalpalooza",
+        "type": "Spell",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "06FR011": {
+        "name": "Ornn",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 7,
+        "attack": 5,
+        "health": 5,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01FR033": {
+        "name": "Wyrding Stones",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 4,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06FR012": {
+        "name": "Favored Artisan",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06FR009": {
+        "name": "Adept Weaponsmith",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02FR006": {
+        "name": "Ruthless Raider",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06FR004": {
+        "name": "Weaponsmith's Apprentice",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06FR024": {
+        "name": "Bone Club",
+        "type": "Equipment",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01FR012": {
+        "name": "Catalyst of Aeons",
+        "type": "Spell",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "04BW005": {
+        "name": "Pyke",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 5,
+        "attack": 1,
+        "health": 3,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH065": {
+        "name": "Xerxa'Reth, The Undertitan",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 5,
+        "attack": 2,
+        "health": 6,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04BW015": {
+        "name": "Sharkling",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04BW001": {
+        "name": "Redfin Hammersnout",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04BW003": {
+        "name": "Snapjaw Swarm",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04BW002": {
+        "name": "Bone Skewer",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "EPIC",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "04BW004": {
+        "name": "Bloodbait",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "04BW010": {
+        "name": "Monster Harpoon",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 6,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "07NX007": {
+        "name": "Samira",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07NX008": {
+        "name": "Elegant Edge",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07NX001": {
+        "name": "Daring Demolisher",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 1,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07NX006": {
+        "name": "Dashing Dandy",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 4,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02NX006": {
+        "name": "Citybreaker",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 4,
+        "attack": 1,
+        "health": 5,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04NX022": {
+        "name": "Ruined Reckoner",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07NX005": {
+        "name": "Captain Indari",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 6,
+        "attack": 5,
+        "health": 5,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07NX009": {
+        "name": "Stylish Shot",
+        "type": "Spell",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "EPIC",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "07IO011": {
+        "name": "Sett",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 5,
+        "attack": 4,
+        "health": 5,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07IO012": {
+        "name": "Bout Security",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07IO009": {
+        "name": "Attentive Accountant",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07IO013": {
+        "name": "Pit Professional",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01IO016": {
+        "name": "Zephyr Sage",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 6,
+        "attack": 4,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07IO020": {
+        "name": "Tag Out!",
+        "type": "Spell",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "07IO017": {
+        "name": "Place Your Bets",
+        "type": "Spell",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "02NX007": {
+        "name": "Swain",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 5,
+        "attack": 3,
+        "health": 6,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07NX014": {
+        "name": "Pirouette",
+        "type": "Spell",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "08NX024": {
+        "name": "Iron Legionary",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 3,
+        "attack": 5,
+        "health": 1,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "08NX003": {
+        "name": "Enraged Firespitter",
+        "type": "Unit",
+        "regions": [
+            "Noxus"
+        ],
+        "cost": 6,
+        "attack": 6,
+        "health": 4,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03BW004": {
+        "name": "Tahm Kench",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 6,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03BW015": {
+        "name": "Crusty Codger",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 4,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03BW007": {
+        "name": "Boxtopus",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 4,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03BW002": {
+        "name": "Lounging Lizard",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 5,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02BW021": {
+        "name": "Razorscale Hunter",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 5,
+        "attack": 4,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02BW017": {
+        "name": "Citrus Courier",
+        "type": "Unit",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 6,
+        "attack": 4,
+        "health": 5,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01IO004": {
+        "name": "Health Potion",
+        "type": "Spell",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "03BW010": {
+        "name": "Bayou Brunch",
+        "type": "Spell",
+        "regions": [
+            "Bilgewater"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "04SH073": {
+        "name": "Taliyah",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 5,
+        "attack": 3,
+        "health": 5,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH028": {
+        "name": "Ancient Preparations",
+        "type": "Landmark",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH044": {
+        "name": "Clockwork Curator",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH042": {
+        "name": "Hibernating Rockbear",
+        "type": "Landmark",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH089": {
+        "name": "Desert Naturalist",
+        "type": "Unit",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SH093": {
+        "name": "Shaped Stone",
+        "type": "Spell",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "04SH037": {
+        "name": "Unraveled Earth",
+        "type": "Spell",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "04SH120": {
+        "name": "Imagined Possibilities",
+        "type": "Spell",
+        "regions": [
+            "Shurima"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "01PZ008": {
+        "name": "Teemo",
+        "type": "Unit",
+        "regions": [
+            "Bandle City",
+            "Piltover & Zaun"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC100": {
+        "name": "Puffcap Pup",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC209": {
+        "name": "Stress Defense",
+        "type": "Spell",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "05BC069": {
+        "name": "Lecturing Yordle",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 5,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05PZ017": {
+        "name": "Sump Fumes",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "01PZ058": {
+        "name": "Chump Whump",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01PZ025": {
+        "name": "Puffcap Peddler",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC070": {
+        "name": "Ava Achiever",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 6,
+        "attack": 4,
+        "health": 4,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07RU015": {
+        "name": "The Poro King",
+        "type": "Unit",
+        "regions": [
+            "Runeterra"
+        ],
+        "cost": 5,
+        "attack": 4,
+        "health": 4,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01FR008": {
+        "name": "Lonely Poro",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06FR021": {
+        "name": "Pouty Poro",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01PZ023": {
+        "name": "Professor von Yipp",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "07PZ019": {
+        "name": "Chemtech Catermobile",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01FR043": {
+        "name": "Heart of the Fluft",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 6,
+        "attack": 4,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "99NE056": {
+        "name": "Poro Nip",
+        "type": "Spell",
+        "regions": "Freljord",
+        "cost": "4",
+        "attack": "",
+        "health": "",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "06BC043": {
+        "name": "Poro Stories",
+        "type": "Spell",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "01FR016": {
+        "name": "Poro Snax",
+        "type": "Spell",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "01SI052": {
+        "name": "Thresh",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 5,
+        "attack": 3,
+        "health": 6,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01SI048": {
+        "name": "Cursed Keeper",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SI054": {
+        "name": "Camavoran Soldier",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01SI001": {
+        "name": "Vengeance",
+        "type": "Spell",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 6,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "06RU009": {
+        "name": "Varus",
+        "type": "Unit",
+        "regions": [
+            "Runeterra"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 4,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06MT032": {
+        "name": "Lunari Cultist",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05MT012": {
+        "name": "Freed Colossus",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 5,
+        "attack": 4,
+        "health": 5,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06DE017": {
+        "name": "Fish Fight",
+        "type": "Spell",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "06DE018": {
+        "name": "Condemn",
+        "type": "Spell",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 6,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "06DE019": {
+        "name": "Widowed Huntress",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06DE021": {
+        "name": "Vayne",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 3,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06DE025": {
+        "name": "Kind-hearted Recruit",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 5,
+        "attack": 5,
+        "health": 5,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06DE027": {
+        "name": "Zealous Ranger-Knight",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06DE032": {
+        "name": "Demacian Steel",
+        "type": "Equipment",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "06DE034": {
+        "name": "Faithful Wolfdog",
+        "type": "Unit",
+        "regions": [
+            "Demacia"
+        ],
+        "cost": 3,
+        "attack": 1,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC093": {
+        "name": "Veigar",
+        "type": "Unit",
+        "regions": [
+            "Bandle City",
+            "Shadow Isles"
+        ],
+        "cost": 4,
+        "attack": 1,
+        "health": 4,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC094": {
+        "name": "Darkbulb Acolyte",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC098": {
+        "name": "Twisted Catalyzer",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 2,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC102": {
+        "name": "Wizened Wizard",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC057": {
+        "name": "Stilted Robemaker",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC096": {
+        "name": "Tenor of Terror",
+        "type": "Unit",
+        "regions": [
+            "Bandle City",
+            "Shadow Isles"
+        ],
+        "cost": 4,
+        "attack": 1,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "09BC001": {
+        "name": "Vex",
+        "type": "Unit",
+        "regions": [
+            "Bandle City",
+            "Shadow Isles"
+        ],
+        "cost": 4,
+        "attack": 5,
+        "health": 4,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "09BC004": {
+        "name": "Allay",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "09BC003": {
+        "name": "Grotesque Gift",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 1,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01SI029": {
+        "name": "Withering Wail",
+        "type": "Spell",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "07BC009": {
+        "name": "Pie Toss",
+        "type": "Spell",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "09BC011": {
+        "name": "Gloomsprites",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "09SI014": {
+        "name": "Grimm",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 6,
+        "attack": 5,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "09BC006": {
+        "name": "Beefcake Mayor",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 4,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "09BC012": {
+        "name": "The Family Reunion",
+        "type": "Landmark",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "02PZ008": {
+        "name": "Vi",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 5,
+        "attack": 2,
+        "health": 4,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01PZ055": {
+        "name": "Astute Academic",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03PZ018": {
+        "name": "Poro Cannon",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "06SI039": {
+        "name": "Shape of Fear",
+        "type": "Spell",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "01SI043": {
+        "name": "Hapless Aristocrat",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01SI006": {
+        "name": "Possession",
+        "type": "Spell",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "04SI028": {
+        "name": "Camavoran Dragon",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 4,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SI053": {
+        "name": "Invasive Hydravine",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 7,
+        "attack": 7,
+        "health": 6,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04SI055": {
+        "name": "Viego",
+        "type": "Unit",
+        "regions": [
+            "Shadow Isles"
+        ],
+        "cost": 6,
+        "attack": 6,
+        "health": 5,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03PZ003": {
+        "name": "Viktor",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 4,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01PZ053": {
+        "name": "Clump of Whumps",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03PZ002": {
+        "name": "Nyandroid",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 1,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "04PZ016": {
+        "name": "Boom Baboon",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03PZ010": {
+        "name": "Mechanized Mimic",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 5,
+        "attack": 3,
+        "health": 4,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "08FR001": {
+        "name": "Volibear",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 9,
+        "attack": 10,
+        "health": 10,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01FR035": {
+        "name": "Unscarred Reaver",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "08FR012": {
+        "name": "Invocation Of Thunder",
+        "type": "Spell",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "08FR002": {
+        "name": "Valhir's Prophet",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 3,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01FR020": {
+        "name": "Avalanche",
+        "type": "Spell",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Slow",
+        "collectible": true
+    },
+    "01FR007": {
+        "name": "Babbling Bjerg",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 4,
+        "attack": 3,
+        "health": 4,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01FR021": {
+        "name": "Tarkaz the Tribeless",
+        "type": "Unit",
+        "regions": [
+            "Freljord"
+        ],
+        "cost": 5,
+        "attack": 5,
+        "health": 8,
+        "rarity": "EPIC",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "98PZ001": {
+        "name": "Warwick",
+        "type": "Unit",
+        "regions": "Piltover &Zaun",
+        "cost": "3",
+        "attack": "",
+        "health": "3",
+        "rarity": "",
+        "spellSpeed": "",
+        "collectible": ""
+    },
+    "01PZ017": {
+        "name": "Used Cask Salesman",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 3,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01PZ039": {
+        "name": "Get Excited!",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "06PZ009": {
+        "name": "Caustic Riff",
+        "type": "Spell",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "01PZ044": {
+        "name": "Chempunk Shredder",
+        "type": "Unit",
+        "regions": [
+            "Piltover & Zaun"
+        ],
+        "cost": 5,
+        "attack": 5,
+        "health": 2,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01IO015": {
+        "name": "Yasuo",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 4,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01IO017": {
+        "name": "Navori Bladescout",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC112": {
+        "name": "Blastcone Seedling",
+        "type": "Unit",
+        "regions": [
+            "Bandle City",
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 2,
+        "health": 2,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01IO008": {
+        "name": "Fae Bladetwirler",
+        "type": "Unit",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 3,
+        "rarity": "RARE",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "01IO046": {
+        "name": "Steel Tempest",
+        "type": "Spell",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "01IO002": {
+        "name": "Will of Ionia",
+        "type": "Spell",
+        "regions": [
+            "Ionia"
+        ],
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "rarity": "COMMON",
+        "spellSpeed": "Fast",
+        "collectible": true
+    },
+    "05BC029": {
+        "name": "Yuumi",
+        "type": "Unit",
+        "regions": [
+            "Bandle City",
+            "Targon"
+        ],
+        "cost": 3,
+        "attack": 2,
+        "health": 1,
+        "rarity": "Champion",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC145": {
+        "name": "Yordle Squire",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "03MT067": {
+        "name": "Crystal Ibex",
+        "type": "Unit",
+        "regions": [
+            "Targon"
+        ],
+        "cost": 4,
+        "attack": 4,
+        "health": 4,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC217": {
+        "name": "Fae Sprout",
+        "type": "Spell",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 1,
+        "attack": 0,
+        "health": 0,
+        "rarity": "RARE",
+        "spellSpeed": "Burst",
+        "collectible": true
+    },
+    "05BC019": {
+        "name": "Rainbowfish",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 4,
+        "attack": 2,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    },
+    "05BC066": {
+        "name": "Quick Quill",
+        "type": "Unit",
+        "regions": [
+            "Bandle City"
+        ],
+        "cost": 2,
+        "attack": 1,
+        "health": 1,
+        "rarity": "COMMON",
+        "spellSpeed": "",
+        "collectible": true
+    }
+}
