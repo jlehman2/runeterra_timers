@@ -6,15 +6,17 @@ import threading
 
 
 class GameDurationsDisplay:
-    def __init__(self, root, game_durations, get_current_deck, get_current_champion_time, get_menu_time, stop_event, clear_data, champion_data):
+    def __init__(self, root, game_durations, get_current_deck, get_current_champion_time, get_menu_time, stop_event, clear_data, champion_data, reset_timers):
         self.root = root  # Pass root from LoR_Timers.py
         self.game_durations = game_durations  # Store game durations
         self.get_current_deck = get_current_deck
-        self.get_current_champion_time = get_current_champion_time  # New
-        self.get_menu_time = get_menu_time  # New
+        self.get_current_champion_time = get_current_champion_time  # ✅ New
+        self.get_menu_time = get_menu_time  # ✅ New
         self.stop_event = stop_event
         self.clear_data = clear_data
         self.champion_data = champion_data
+        self.reset_timers = reset_timers  # ✅ Store reset_timers function
+
 
         self.root.title("Game Durations Info")
 
@@ -36,11 +38,11 @@ class GameDurationsDisplay:
         self.current_deck_label = ttk.Label(self.root, text="Current Deck: Unknown", style="TLabel")
         self.current_deck_label.pack()
 
-        # Champion Timer Label
+        # ✅ Champion Timer Label
         self.champion_timer_label = ttk.Label(self.root, text="Champion Time: 00:00", style="TLabel")
         self.champion_timer_label.pack()
 
-        # Menu Timer Label
+        # ✅ Menu Timer Label
         self.menu_timer_label = ttk.Label(self.root, text="Menu Time: 00:00", style="TLabel")
         self.menu_timer_label.pack()
 
@@ -88,6 +90,7 @@ class GameDurationsDisplay:
 
     def restart_timer(self):
         """Restarts the game timer."""
+        self.reset_timers()
         self.start_time = time.time()
 
     def format_duration(self, duration):
@@ -109,15 +112,15 @@ class GameDurationsDisplay:
         current_deck = self.get_current_deck()
         self.current_deck_label.config(text=f"Current Deck: {current_deck}")
 
-        # Get the latest timers
+        # ✅ Get the latest timers
         champion_time = self.format_duration(self.get_current_champion_time())
         menu_time = self.format_duration(self.get_menu_time())
 
-        # Update champion & menu timers
+        # ✅ Update champion & menu timers
         self.champion_timer_label.config(text=f"Champion Time: {champion_time}")
         self.menu_timer_label.config(text=f"Menu Time: {menu_time}")
 
-        # Clear existing data in Treeview
+        # ✅ Clear existing data in Treeview
         for item in self.tree.get_children():
             self.tree.delete(item)
 
@@ -126,14 +129,14 @@ class GameDurationsDisplay:
             if not games:
                 continue
             durations = [game["duration"] if isinstance(game, dict) else game for game in
-                         games]  # Handle float values safely
+                         games]  # ✅ Handle float values safely
             fastest_time = min(durations)
             average_time = sum(durations) / len(durations)
             self.tree.insert("", "end", text=champion,
                              values=(self.format_duration(fastest_time), self.format_duration(average_time)))
             last_game_duration = durations[-1]
 
-        # Update last game duration
+        # ✅ Update last game duration
         self.last_game_duration_label.config(text=f"Last Game Duration: {self.format_duration(last_game_duration)}")
 
         self.root.after(1000, self.refresh_data)
