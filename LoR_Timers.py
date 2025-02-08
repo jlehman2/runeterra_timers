@@ -47,6 +47,7 @@ class LoRTimers:
         self.deck = None
         self.previous_deck = None
         self.deck_missing_count = 0
+        self.clock = None
 
     @property
     def current_champion_time(self):
@@ -98,6 +99,8 @@ class LoRTimers:
         print("[WARNING] No champion found in deck'.")
 
     def update_fields(self):
+
+        self.clock = time.time()
         self.api_caller.update_all_data()
         self.player_won = self.api_caller.game_result.get("LocalPlayerWon", None)
         self.game_id = self.api_caller.game_result.get("GameID", None)
@@ -106,6 +109,7 @@ class LoRTimers:
         self.deck = self.api_caller.get_deck()
 
         self.current_state = self.api_caller.get_game_state()
+
 
     def track_state_changes(self):
         """Track changes in game state, deck, and game ID before handling them."""
@@ -153,13 +157,6 @@ class LoRTimers:
             print("[INFO] Entering a game...")
             self.start_champion_timer()
 
-        ## Deck changed in MENU (Switched deck or exited adventure)
-        #elif deck_changed and self.current_state == GameState.MENU:
-        #    print("[INFO] Deck changed or adventure ended. Resetting champion timer.")
-        #    self.champion_start_time = None
-        #    self.champion_duration = 0  # Reset invalid champion times
-        #    self.start_menu_timer()
-
         elif state_changed and self.current_state == GameState.IN_PROGRESS and self.previous_game_state is None:
 
             # speed timers started in the middle of a game already running
@@ -168,9 +165,9 @@ class LoRTimers:
     def start_champion_timer(self):
         """Start champion timer and ensure the menu timer stops."""
         # Starting champion timer should always stop menu timer
-        clock = time.time()
+        clock = self.clock
         if self.menu_start_time:
-            self.stop_menu_timer(clock)
+            self.stop_menu_timer()
 
         if not self.champion_start_time:
             print(f"[TIMER] Champion timer started for {self.current_champion}.")
@@ -183,10 +180,10 @@ class LoRTimers:
                 self.pending_champion_time = None  # Clear pending time
 
 
-    def stop_champion_timer(self, clock):
+    def stop_champion_timer(self):
         """Stop champion timer, store the time, and decide what to do next."""
         if self.champion_start_time:
-            session_duration = clock - self.champion_start_time
+            session_duration = self.clock - self.champion_start_time
             self.champion_duration += session_duration
             self.champion_start_time = None
             print(f"[TIMER] {self.current_champion} session ended. Duration: {self.champion_duration:.2f} sec")
@@ -208,18 +205,18 @@ class LoRTimers:
     def start_menu_timer(self):
         """Start menu timer and ensure the champion timer stops."""
         # Starting menu timer should always stop champion timer
-        clock = time.time()
+        clock = self.clock
         if self.champion_start_time:
-            self.stop_champion_timer(clock)
+            self.stop_champion_timer()
 
         if not self.menu_start_time:
             print("[TIMER] Menu timer started.")
             self.menu_start_time = clock
 
-    def stop_menu_timer(self, end=time.time()):
+    def stop_menu_timer(self):
         """Stop menu timer and add the duration to total menu time."""
         if self.menu_start_time:
-            self.menu_duration += end - self.menu_start_time
+            self.menu_duration += self.clock - self.menu_start_time
             self.menu_start_time = None
             print(f"[TIMER] Menu session ended. Total menu time: {self.menu_duration:.2f} sec")
 
@@ -239,8 +236,6 @@ class LoRTimers:
 
             self.previous_game_state = self.current_state
 
-        # might not need this anymore
-        #  Step 2: Handle Pause & Deck Tracking
         # we are waiting because of the menu pause after winning or losing a game
         if self.pause and self.deck is None:
             # start menu timer if it isnt already
@@ -300,6 +295,21 @@ class LoRTimers:
         print("[INFO] Stopping application...")
         self.stop_event.set()
 
+    def restart_timer(self):
+        # need to clear all current saved timer variables
+        self.menu_start_time = None
+        self.champion_start_time = None
+        self.menu_duration = 0
+        self.champion_duration = 0
+        self.pending_champion_time = 0
+        self.clock = time.time()
+
+        if self.current_state == GameState.IN_PROGRESS:
+            self.champion_start_time = self.clock
+            self.start_champion_timer()
+        if self.current_state == GameState.MENU:
+            self.menu_start_time = self.clock
+            self.start_menu_timer()
 
 if __name__ == "__main__":
     stop_event = threading.Event()  # Shared stop event between game logic and GUI
@@ -324,6 +334,7 @@ if __name__ == "__main__":
         get_menu_time=lambda: game.total_menu_time,  # ✅ New
         stop_event=stop_event,
         clear_data=lambda: game.champion_mapping.clear(),
-        champion_data={}
+        champion_data={},
+        reset_timers = game.restart_timer  # ✅ Pass reset_timers from LoRTimers
     )
     gui.run()  # Run the GUI
